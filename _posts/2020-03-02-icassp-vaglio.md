@@ -16,14 +16,17 @@ publication_authors: A. Vaglio, R. Hennequin, M. Moussallam, G. Richard, F. d'Al
 publication_conference: ICASSP
 ---
 
-We present a novel automatic system for performing explicit
-content detection directly on the audio signal.
+<p>
+    We present a novel automatic system for performing explicit content detection directly
+    on the audio signal.
+</p>
 
-Our modular approach uses an audio-to-character recognition model, a
-keyword spotting model associated with a dictionary of carefully chosen keywords, and a Random Forest classification
-model for the final decision. To the best of our knowledge,
-this is the first explicit content detection system based on
-audio only.
+<p>
+    Our modular approach uses an audio-to-character recognition model, a keyword spotting
+    model associated with a dictionary of carefully chosen keywords, and a <i>Random Forest
+    classification</i> model for the final decision. To the best of our knowledge, this is the
+    first explicit content detection system based on audio only.
+</p>
 
 <div class="publication-illustration">
     <img
@@ -31,10 +34,13 @@ audio only.
         alt="Overview of the proposed modular approach"/>
 </div>
 
-We demonstrate the individual relevance of our
-modules on a set of sub-tasks and compare our approach to a
-lyrics-informed oracle and an end-to-end naive architecture.
-The results obtained are encouraging with a F1-score of 67%
-on a industrial scale explicit content dataset.
+<p>
+    We demonstrate the individual relevance of our modules on a set of sub-tasks and compare our
+    approach to a lyrics-informed oracle and an end-to-end naive architecture. The results obtained
+    are encouraging with a F1-score of 67% on a industrial scale explicit content dataset.
+</p>
 
-This paper has been accepted for publication in the proceedings of the 45th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2020).
+<p>
+    This paper has been accepted for publication in the proceedings of the 45th IEEE International
+    Conference on Acoustics, Speech and Signal Processing (ICASSP 2020).
+</p>
