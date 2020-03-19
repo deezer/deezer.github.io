@@ -1,0 +1,45 @@
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    {%- comment -%} Previous button {%- endcomment -%}
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        &laquo;Previous
+    </a>
+    {% endif %}
+
+
+    {%- comment -%} Start index computing {%- endcomment -%}
+    {% if paginator.page <= site.paginate_nr %}
+    {% assign page_start = 1 %}
+    {% else %}
+    {% assign page_start = paginator.page | minus: site.paginate_nr %}
+    {% endif %}
+
+    {%- comment -%} End index computing {%- endcomment -%}
+    {% assign overflow = paginator.page | plus: site.paginate_nr %}
+    {% if overflow >= paginator.total_pages %}
+    {% assign page_end = paginator.total_pages %}
+    {% else %}
+    {% assign page_end = paginator.page | plus: site.paginate_nr %}
+    {% endif %}
+
+    {%- comment -%} Pagination formatting {%- endcomment -%}
+    {% for page in (page_start..page_end) %}
+    {% if page == paginator.page %}
+    <span class="active">{{ page }}</span>
+    {% elsif page == 1 %}
+    <a href="{{ site.baseurl }}">{{ page }}</a>
+    {% else %}
+    <a
+        href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+    {% endfor %}
+
+    {%- comment -%} Next button {%- endcomment -%}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        Next&raquo;
+    </a>
+    {% endif %}
+</div>
+{% endif %}

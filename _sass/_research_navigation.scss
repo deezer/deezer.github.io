@@ -1,0 +1,154 @@
+/**
+ * Navigation bar and menu.
+ *
+ * @author Felix Voituret <fvoituret@deezer.com>
+ */
+
+#navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+
+  .logo {
+    font-family: Mabry Pro;
+    font-size: 23px;
+    line-height: 27px;
+    letter-spacing: -0.015em;
+
+    img {
+      width: 142.84px;
+      height: 25.14px;
+    }
+  }
+
+  #buzgeer {
+    display: none;
+    cursor: pointer;
+    margin: 16px;
+    margin-right: 0px;
+  }
+
+  #buzgeer.white > path {
+    fill: white;
+  }
+  #buzgeer.black > path {
+    fill: #191919;
+  }
+
+  ul#navlinks {
+    list-style: none;
+
+    li.navlink {
+      position: relative;
+      top: 6px;
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    a,
+    a:active,
+    a:hover,
+    a:visited {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a.active,
+    a.active:hover,
+    a.active:visited {
+      font-weight: 500;
+    }
+  }
+
+  a.unactive,
+  a.unactive:hover,
+  a.unactive:visited {
+    font-weight: normal;
+    opacity: 0.8;
+  }
+}
+
+header {
+  a,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+  }
+}
+
+.rotate {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  transition-duration: 0.4s;
+}
+
+.unrotate {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition-duration: 0.4s;
+}
+
+#responsive-menu-brand {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header.fullscreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    .white {
+      color: #191919;
+    }
+    #navigation {
+      ul#navlinks {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        li {
+          display: block;
+          margin-top: 40px;
+          a {
+            font-size: 1.25rem;
+          }
+        }
+      }
+      #buzgeer.white > path {
+        fill: #191919;
+      }
+    }
+  }
+  #navigation {
+    ul#navlinks {
+      display: none;
+    }
+    #buzgeer {
+      display: block;
+      svg {
+        margin-top: -5px;
+      }
+    }
+  }
+}

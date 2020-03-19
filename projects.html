@@ -1,0 +1,32 @@
+---
+layout: template
+title: Projects
+permalink: /projects/
+index: true
+---
+
+<div id="projects-header" class="page-header-viewport flex w-100">
+    <div class="projects-headlines w-50 xs-w-100">
+        <div class="headline headline-light">
+            Projects &<br>
+            Partnerships <br>
+        </div>
+        <div class="subheadline subheadline-light">
+            Deezer Research actively collaborates with international academic partners through dedicated research
+            initiatives, data sharing and student training.
+            We also participate and lead open-source code initiatives of research tools.
+        </div>
+    </div>
+</div>
+
+<div id="page-header-drop" class="w-100">
+</div>
+
+<div id="page-content">
+    <div id="page-content-anchor" class="mb-30"></div>
+    {% for project in site.projects %}
+    {% include project-header.html
+            project=project
+            link=true %}
+    {% endfor %}
+</div>

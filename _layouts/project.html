@@ -1,0 +1,37 @@
+---
+layout: template
+---
+
+<div id="page-content">
+    {% include project-header.html project=page %}
+    <div class="post-content primary-text" itemprop="articleBody">
+        {{ content }}
+    </div>
+    <div class="post-footer">
+        {% assign posts = site.posts | where_exp: "post", "post.projects contains page.name" | sort: "date" %}
+        {% assign n = posts | size %}
+        {% if n > 0 %}
+        <div class="post-links mb-60">
+            <h2 class="secondary-header mb-30">Publications</h2>
+            {% for post in posts %}
+            {% include post-header.html 
+                        post=post
+                        link=true
+                        mode="publication" %}
+            {% endfor %}
+        </div>
+        {% endif %}
+        <div class="post-links">
+            <h2 class="secondary-header mb-30">External links</h2>
+            <div class="links">
+                <a class="post-link" href="{{ page.website }}" target="_blank">
+                    Project website
+                </a>
+                {% for partner in page.partners %}
+                <a class="post-link" href="{{ partner.url }}" target="_blank">
+                    {{ partner.label }} website
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>

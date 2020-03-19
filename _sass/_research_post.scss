@@ -1,0 +1,243 @@
+/**
+ * Post layout and format.
+ *
+ * @author Felix Voituret <fvoituret@deezer.com>
+ */
+
+.post-category {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #a2a2ad;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.post-title {
+  font-family: Mabry Pro Bold;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #191919;
+}
+
+.post-title-sm {
+  font-size: 32px !important;
+  line-height: 37px !important;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-header-metadata {
+  display: flex;
+  align-items: center;
+}
+
+.post-header-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.post-header-content {
+  font-family: Mabry Pro;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #72727d;
+
+  .post-header-description {
+    font-family: Roboto;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    time {
+      text-transform: uppercase;
+    }
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+}
+
+.post-header-author {
+  color: #72727d;
+  text-decoration: none;
+  font-family: Mabry Pro Bold;
+}
+
+a.post-permalink,
+a.post-permalink:visited,
+a.post-permalink:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ef5466;
+  border-radius: 32px;
+  width: 153px;
+  min-width: 153px;
+  height: 42px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.post-content {
+  a,
+  a:visited,
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+  p {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+
+.post-footer {
+  margin-top: 5vw;
+
+  .post-relative-authors {
+    border-top: 1px solid #c8c8c8;
+    padding-top: 15px;
+
+    .authors {
+      display: flex;
+      flex-wrap: wrap;
+
+      .author {
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-right: 21px;
+      }
+    }
+  }
+
+  .post-links {
+    border-top: 1px solid #c8c8c8;
+    margin-top: 20px;
+    padding-top: 15px;
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+
+      a.post-link,
+      a.post-link:visited,
+      a.post-link:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: black;
+        border-radius: 32px;
+        width: 255px;
+        height: 42px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-right: 32px;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .share-buttons {
+    margin-top: 5vw;
+
+    div {
+      margin-right: 5px;
+    }
+  }
+}
+
+img {
+  width: 90%;
+  align-content: center;
+}
+
+@media (max-width: 768px) {
+  .post-header {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+
+  .post-title {
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  .post-header-metadata {
+    margin-bottom: 30px;
+  }
+
+  a.post-permalink,
+  a.post-permalink:visited,
+  a.post-permalink:hover {
+    width: 100%;
+  }
+
+  .post-footer {
+    .post-relative-authors {
+      .authors {
+        flex-wrap: nowrap;
+        flex-direction: column;
+      }
+    }
+
+    .post-links {
+      .links {
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        a.post-link,
+        a.post-link:visited,
+        a.post-link:hover {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.publication-illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}

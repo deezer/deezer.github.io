@@ -1,0 +1,32 @@
+---
+layout: template
+---
+
+<div id="page-content">
+    <div id="member" class="w-100 flex">
+        <div class="member-header flex">
+            <img src="{{ page.picture | prepend: "/static/images/photos/" | prepend: site.baseurl }}"
+                class="member-avatar">
+            <div class="member-metadata mb-30">
+                <div class="member-name">{{ page.fullname }}</div>
+                <div class="member-position">{{ page.position }}</div>
+            </div>
+        </div>
+        <div class="member-posts">
+            {% assign posts = site.posts | where_exp: "post", "post.people contains page.nickname" | sort: "date" | reverse %}
+            {% assign n = posts | size %}
+            {% if n > 0 %}
+            {% for post in posts %}
+            <div class="text-justify mb-100">
+                {% include post-header.html
+                            post=post
+                            link=true
+                            mode="publication" %}
+            </div>
+            {% endfor %}
+            {% else %}
+            <p>There is no related post yet for <b>{{ page.fullname }}</b>.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>

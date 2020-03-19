@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="description" content="
+                {% if page.excerpt %}
+                    {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
+                {% else %}
+                    {{ site.description }}
+                {% endif %}">
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <link rel="stylesheet" href="{{ '/static/css/main.css' | prepend: site.baseurl }}">
+    <title>
+        Deezer Research
+        {% if page.fullname %}
+        - {{ page.fullname }}
+        {% elsif page.title %}
+        - {{ page.title | escape }}
+        {% endif %}
+    </title>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
+        href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+</head>
+
+<body>
+    {% include site-header.html %}
+    <div id="site-content-container">
+        {{ content }}
+    </div>
+    {% include site-footer.html %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        function showResponsiveMenu() {
+            $("#menu-brand, #site-content-container, footer").fadeOut(
+                100,
+                "swing",
+                function () {
+                    $("header").addClass("fullscreen");
+                    $("#menu-brand").hide(0, function () {
+                        $("ul#navlinks").show(0, function () {
+                            $("#responsive-menu-brand").show(0);
+                        });
+                    });
+                });
+        }
+        function hideResponsiveMenu() {
+            $("header").removeClass("fullscreen");
+            $("#responsive-menu-brand, ul#navlinks").hide();
+            $("#menu-brand, #site-content-container, footer").fadeIn(200);
+        }
+        function onResize() {
+            if (!window.matchMedia("(max-width: 768px)").matches) {
+                hideResponsiveMenu();
+                $("ul#navlinks").show();
+            }
+        }
+        $(document).ready(function () {
+            $(".ellipse").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+            $("#buzgeer").click(function () {
+                if ($("header").hasClass("fullscreen")) {
+                    hideResponsiveMenu();
+                }
+                else {
+                    showResponsiveMenu();
+                }
+            });
+            window.addEventListener('resize', onResize);
+        });
+    </script>
+</body>
+
+</html>

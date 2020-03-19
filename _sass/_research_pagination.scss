@@ -1,0 +1,30 @@
+/**
+ * Pagination component.
+ *
+ * @author Felix Voituret <fvoituret@deezer.com>
+ */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a,
+.pagination a:visited,
+.pagination:hover {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+  color: #191919;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pagination .active {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}

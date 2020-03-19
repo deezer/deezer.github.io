@@ -1,0 +1,59 @@
+title: Deezer Research
+email: research@deezer.com
+description: >
+  We're a team of scientists and engineers specialized in Music Analysis, Information Retrieval and Recommendation.
+url: "https://research.deezer.com"
+github_username: Deezer
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM 
+  syntax_highlighter: rouge
+
+paginate: 5
+paginate_path: /:num/
+paginate_nr: 3
+latest_nr: 10
+
+plugins:
+  - jekyll-paginate
+
+collections:
+  projects:
+    output: True
+  members:
+    output: True
+
+team:
+  - eepure
+  - fvoituret
+  - avaglio
+  - akhlif
+  - rhennequin
+  - gsalha
+  - mmoussallam
+  - royo-letelier
+  - vatran
+  - dafchar
+  - kibrahim
+
+defaults:
+  - scope:
+      path: ""
+      type: "members"
+    values:
+      layout: "member"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "template"

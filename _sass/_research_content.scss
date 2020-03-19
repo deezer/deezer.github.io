@@ -1,0 +1,393 @@
+/**
+ * Content layouting.
+ *
+ * @author Felix Voituret <fvoituret@deezer.com>
+ */
+
+.page-header-viewport {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 700px;
+  height: 100vh;
+}
+
+#blog-header-embeddings {
+  z-index: -10;
+  background: linear-gradient(56.08deg, #b84fdd -26.76%, #4965f4 44.6%, #2efb74 132.54%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    width: 50%;
+    height: 70%;
+    mix-blend-mode: color-dodge;
+  }
+}
+
+#blog-header {
+  z-index: -9;
+  align-items: center;
+
+  .blog-headlines {
+    padding-left: 10vw;
+    box-sizing: border-box;
+  }
+
+  .label {
+    font-family: Mabry Pro;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+}
+
+#blog-header-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: -8;
+
+  .line {
+    border-top: 1px solid white;
+    width: 100px;
+    max-width: 100px;
+    min-width: 90px;
+    margin-right: 5px;
+  }
+
+  .label {
+    padding-right: 5vw;
+    font-family: Mabry Pro;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: white;
+  }
+}
+
+#page-header-drop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85vh;
+  min-height: 600px;
+}
+
+#page-content {
+  padding-top: 7vh;
+  padding-bottom: 10vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  z-index: -12;
+
+  p {
+    a,
+    a:visited,
+    a:hover {
+      color: red;
+      text-decoration: none;
+    }
+  }
+}
+
+#projects-header {
+  z-index: -10;
+  background: linear-gradient(218.84deg, #ffb72d -1.99%, #04bc7a 48.98%, #0995a2 99.94%);
+  z-index: -9;
+  align-items: center;
+
+  .projects-headlines {
+    padding-left: 10vw;
+    box-sizing: border-box;
+  }
+}
+
+#member {
+  .member-header {
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+
+    .member-avatar {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      margin-bottom: 30px;
+    }
+
+    .member-metadata {
+      text-align: center;
+      color: #72727d;
+
+      .member-name {
+        font-family: Mabry Pro Bold;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+      }
+
+      .member-position {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+
+  .member-posts {
+    width: 80%;
+    padding-left: 40px;
+  }
+}
+
+#team-header {
+  z-index: -10;
+  align-items: center;
+
+  .team-headlines {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    box-sizing: border-box;
+  }
+}
+
+#team-content {
+  img {
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  div {
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 10vw;
+
+    a,
+    a:visited,
+    a:hover {
+      text-decoration: none;
+      color: #72727d;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+
+#team-footer {
+  flex-direction: column;
+  height: 30vh;
+  box-sizing: border-box;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+footer {
+  border-top: 1px solid #c8c8c8;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  padding-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  outline: 0 none;
+}
+
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  footer {
+    padding: 30px;
+  }
+}
+
+.footer-blocks {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+
+.footer-block {
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.footer-block-header {
+  color: #000;
+  font-family: Deezer, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 10px 25px;
+  text-transform: uppercase;
+}
+
+.footer-list-item {
+  color: #9e9e9e;
+  display: block;
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.33333333;
+  padding: 10px;
+}
+
+.footer-bottom {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.footer-bottom-logo,
+.footer-bottom-social {
+  padding: 10vw;
+  text-align: center;
+}
+
+.footer-bottom-logo img {
+  width: 142.84px;
+  height: 25.14px;
+}
+
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  .footer-bottom-logo,
+  .footer-bottom-social {
+    max-width: 200px;
+    padding: 30px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 2dppx),
+  only screen and (min-resolution: 192dpi) {
+  .footer-bottom-logo .footer-logo-deezer,
+  .footer-bottom-social .footer-logo-deezer {
+    background-image: url(https://www.deezer.com/cache/slash/images/common/logos/deezer_black@2x.94227c838c63962ed827df3801a98434.png);
+    background-size: 125px 32px;
+  }
+}
+
+.footer-bottom-social {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  .footer-blocks {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .footer-block-header,
+  .footer-list-item {
+    text-align: left;
+  }
+
+  .footer-bottom {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  #page-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #team-header {
+    .team-headlines {
+      padding-left: 40px;
+    }
+  }
+
+  #blog-header-embeddings img {
+    width: 90%;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  #blog-header-embeddings img {
+    width: 90%;
+    height: 80%;
+  }
+
+  #blog-header-label {
+    display: none;
+  }
+
+  #member {
+    flex-direction: column;
+
+    .member-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .member-posts {
+      width: 100%;
+      padding-left: 0px;
+    }
+  }
+
+  #team-content {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    div {
+      width: 100%;
+      box-sizing: border-box;
+      padding-top: 100px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  #team-footer {
+    margin-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-height: 700px) {
+  #page-content {
+    padding-top: 10vh;
+  }
+}

@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Mabry Pro";
+$base-font-size: 16px;
+$base-font-weight: 400;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.5;
+$spacing-unit: 30px;
+$text-color: #2b4898;
+$background-color: #fdfdfd;
+$brand-color: #2f589a;
+$grey-color: #a3175e;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: darken($grey-color, 25%);
+$content-width: 800px;
+$on-palm: 600px;
+$on-laptop: 800px;
+
+$list-image-url: "{{'/images/logo-notext.png' | prepend: site.baseurl}}";
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+$base-url: "https://github.deezerdev.com/pages/fvoituret/research.github.io";
+
+@font-face {
+  font-family: "Mabry Pro";
+  src: url($base-url+"/static/fonts/MabryPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mabry Pro Bold";
+  src: url($base-url+"/static/fonts/MabryPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url($base-url+"/static/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "research_common", "research_navigation", "research_post", "research_pagination", "research_content",
+  "structures", "syntax-highlighting";

@@ -1,0 +1,67 @@
+<header class="w-100">
+    <nav id="navigation">
+        <a id="responsive-menu-brand" href="{{ site.baseurl }}" class="logo">
+            <img src="{{ '/static/images/logo-multi-black.svg' | prepend: site.baseurl }}">
+            <span class="black">
+                Research
+            </span>
+        </a>
+        <a id="menu-brand" href="{{ site.baseurl }}" class="logo">
+            {% if page.index %}
+            <img src="{{ '/static/images/logo-mono-white.svg' | prepend: site.baseurl }}">
+            {% else %}
+            <img src="{{ '/static/images/logo-multi-black.svg' | prepend: site.baseurl }}">
+            {% endif %}
+            <span class="{% if page.index %}white{% else %}black{% endif %}">
+                Research
+            </span>
+        </a>
+        <ul id="navlinks">
+            <li class="navlink">
+                <a class="
+                    {% if page.index %}white{% else %}black{% endif %}
+                    {% if page.name == 'index.html' %}
+                        active
+                    {% else %}
+                        unactive
+                    {% endif %}" href="{{ site.baseurl }}">
+                    Publications
+                </a>
+            </li>
+            <li class="navlink">
+                <a class="
+                    {% if page.index %}white{% else %}black{% endif %}
+                    {% if page.name == 'projects.html' %}
+                        active
+                    {% else %}
+                        unactive
+                    {% endif %}" href="{{ "/projects" | prepend: site.baseurl }}">
+                    Projects & Partnerships
+                </a>
+            </li>
+            <li class="navlink">
+                <a class="
+                    {% if page.index %}white{% else %}black{% endif %}
+                    {% if page.name == 'about.html' %}
+                        active
+                    {% else %}
+                        unactive
+                    {% endif %}" href="{{ "/about" | prepend: site.baseurl }}">
+                    About
+                </a>
+            </li>
+            <li class="navlink">
+                <a class="{% if page.index %}white{% else %}black{% endif %} unactive"
+                    href="https://www.deezerjobs.com/en/" target="_blank">Careers</a>
+            </li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" id="buzgeer" class="{% if page.index %}white{% else %}black{% endif %}"
+            viewBox="0 0 128 128" width="32px" height="32px">
+            <path
+                d="M64,117c-29.2,0-53-23.8-53-53s23.8-53,53-53s53,23.8,53,53S93.2,117,64,117z M64,17c-25.9,0-47,21.1-47,47s21.1,47,47,47s47-21.1,47-47S89.9,17,64,17z" />
+            <path
+                d="M86.5 52h-45c-1.7 0-3-1.3-3-3s1.3-3 3-3h45c1.7 0 3 1.3 3 3S88.2 52 86.5 52zM86.5 67h-45c-1.7 0-3-1.3-3-3s1.3-3 3-3h45c1.7 0 3 1.3 3 3S88.2 67 86.5 67z" />
+            <path d="M86.5,82h-45c-1.7,0-3-1.3-3-3s1.3-3,3-3h45c1.7,0,3,1.3,3,3S88.2,82,86.5,82z" />
+        </svg>
+    </nav>
+</header>

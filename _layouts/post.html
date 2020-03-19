@@ -1,0 +1,92 @@
+---
+layout: template
+---
+<div id="page-content">
+    {% include post-header.html 
+                post=page
+                mode="publication" %}
+    <div class="post-content primary-text" itemprop="articleBody">
+        {{ content }}
+    </div>
+    <div class="post-footer">
+        {% if page.people %}
+        <div class="post-relative-authors">
+            <h2 class="secondary-header mb-30">
+                {% if page.category == 'Publication' %}Filter by
+                author{% else %}Author{% endif %}{% if page.people.size > 1 %}s{% endif %}
+            </h2>
+            <div class="authors">
+                {% for people in page.people %}
+                {% if site.team contains people %}
+                {% assign member = site.members | where: 'nickname', people | first %}
+                <a href="{{ member.url | prepend: site.baseurl }}">
+                    <div class="author">
+                        <img class="post-header-avatar"
+                            src="{{ member.picture | prepend: '/static/images/photos/' | prepend: site.baseurl }}"
+                            alt="{{ member.fullname }}" />
+                        <div class="post-header-author">{{ member.fullname }}</div>
+                    </div>
+                </a>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        <div class="post-links">
+            <h2 class="secondary-header mb-30">
+                {% if page.category == 'Publication' %}
+                Publication links
+                {% else %}
+                Links
+                {% endif %}
+            </h2>
+            <div class="links">
+                {% if page.publication_code %}
+                <a class="post-link" href="{{ page.publication_code }}" target="_blank">
+                    View on Github
+                </a>
+                {% endif %}
+                {% if page.publication_preprint %}
+                <a class="post-link" href="{{ page.publication_preprint }}" target="_blank">
+                    Download PDF
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="share-buttons flex">
+            <div class="share-linkedin">
+                <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                <script type="IN/Share" data-url="{{ page.url | prepend: site.url }}"></script>
+            </div>
+            <div class="share-twitter">
+                <script>window.twttr = (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            t = window.twttr || {};
+                        if (d.getElementById(id)) return t;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                        t._e = [];
+                        t.ready = function (f) { t._e.push(f); };
+                        return t;
+                    }(document, "script", "twitter-wjs"));
+                </script>
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet"
+                    data-hashtags="{{ page.hashtags }}" data-text="{{ page.sharedtext }}"
+                    data-url="{{ page.url | prepend: site.url }}" data-via="researchdeezer"
+                    data-related="researchdeezer,deezer">
+                    Tweet
+                </a>
+            </div>
+            <div class="share-facebook">
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous"
+                    src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v5.0">
+                    </script>
+                <div class="fb-share-button" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

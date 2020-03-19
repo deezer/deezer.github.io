@@ -1,0 +1,44 @@
+---
+layout: template
+title: Publications
+index: true
+---
+<div id="blog-header-embeddings" class="page-header-viewport w-100">
+    <img src="{{ '/static/images/explore.gif' | prepend: site.baseurl }}" />
+</div>
+
+<div id="blog-header" class="page-header-viewport flex w-100">
+    <div class="blog-headlines w-50 xs-w-100">
+        <div class="headline headline-light">
+            Understanding <br />
+            music and how <br />
+            people relate to it.
+        </div>
+        <div class="subheadline subheadline-light">
+            Deezer Research is a team of scientists and <br />
+            engineers specialized in Music Analysis, Information <br />
+            Retrieval, Machine Learning and Recommendation.
+        </div>
+    </div>
+</div>
+
+<div id="page-header-drop" class="w-100">
+    <a href="#page-content-anchor" class="ellipse mb-60">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 8L14.59 6.59L9 12.17L9 -3.0598e-07L7 -3.93402e-07L7 12.17L1.41 6.59L-3.49691e-07 8L8 16L16 8Z"
+                fill="#191919" />
+        </svg>
+    </a>
+</div>
+
+<div id="page-content">
+    <div id="page-content-anchor" class="mb-30"></div>
+    {% for post in site.posts %}
+    <div class="mb-100">
+        {% include post-header.html
+            post=post
+            link=true
+            mode='publication' %}
+    </div>
+    {% endfor %}
+</div>

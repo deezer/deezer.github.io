@@ -1,0 +1,44 @@
+<div class="post-header-container">
+    {% if include.category %}
+        <div class="post-category">{{ include.post.category }}</div>
+    {% endif %}
+    <div
+        class="post-title mb-30{% if include.mode == "publication" %} post-title-sm{% endif %}">
+        {{ include.post.title }}
+    </div>
+    <div class="post-header">
+        <div class="post-header-metadata">
+            {% assign author = site.members | where: "nickname", include.post.author | first %}
+            <img
+                class="post-header-avatar"
+                src="{{ author.picture | prepend: "/static/images/photos/" | prepend: site.baseurl }}"/>
+            <div class="post-header-content">
+                <div class="post-header-author">
+                    {% if include.mode == "publication" %}
+                        {{ include.post.publication_authors }}
+                    {% else if include.mode == "news" %}
+                        {{ author.fullname }}
+                    {% endif %}
+                </div>
+                <div class="post-header-description">
+                    {% if include.mode == "publication" %}
+                        {{ include.post.publication_conference }} - {{ include.post.publication_year }}                        
+                    {% else if include.mode == "news" %}
+                        <time
+                            datetime="{{ include.post.date | date_to_xmlschema }}"
+                            itemprop="datePublished">
+                            {{ include.post.date | date: "%b %-d, %Y" }}
+                        </time>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% if include.link %}
+            <a
+                class="post-permalink"
+                href="{{ include.post.url | prepend: site.baseurl }}">
+                Read more
+            </a>
+        {% endif %}
+    </div>
+</div>

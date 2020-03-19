@@ -1,0 +1,18 @@
+<div class="post-header-container mb-60">
+    <div class="post-category">{{ include.project.category }}</div>
+    <div class="post-title mb-30">
+        {{ include.project.name }}
+    </div>
+    <div class="post-header mb-30">
+        <div class="post-header-metadata">
+            <div class="post-content primary-text">
+                {{ include.project.description }}
+            </div>
+        </div>
+    </div>
+    {% if include.link %}
+    <a class="post-permalink" href="{{ include.project.url | prepend: site.baseurl }}">
+        Read more
+    </a>
+    {% endif %}
+</div>

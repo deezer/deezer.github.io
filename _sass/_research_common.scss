@@ -1,0 +1,190 @@
+/**
+ * Common CSS helpers.
+ *
+ * @author Felix Voituret <fvoituret@deezer.com>
+ */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.p-1 {
+  padding: 17vh 25vw 8vh;
+}
+.p-2 {
+  padding: 10vh 24vw 8vh;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .xs-w-100 {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: #191919;
+}
+
+.translator {
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  transform: translateY(100px);
+  -webkit-transition: opacity 0.9s ease, -webkit-transform 0.9s ease;
+  transition: opacity 0.9s ease, -webkit-transform 0.9s ease;
+  transition: transform 0.9s ease, opacity 0.9s ease;
+  transition: transform 0.9s ease, opacity 0.9s ease, -webkit-transform 0.9s ease;
+}
+
+.translator.visible {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.headline {
+  text-align: left;
+  font-family: Mabry Pro Bold;
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .headline {
+    font-size: 40px;
+  }
+}
+
+.headline-light {
+  color: white;
+}
+
+.headline-dark {
+  color: black;
+}
+
+.subheadline {
+  padding-top: 32px;
+  text-align: left;
+  font-family: Mabry Pro;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: white;
+}
+
+.subheadline-light {
+  color: white;
+}
+
+.subheadline-dark {
+  color: #72727d;
+}
+
+.ellipse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+
+  svg {
+    path {
+      fill: #191919;
+    }
+  }
+}
+
+.dark-ellipse {
+  background: #191919;
+  svg {
+    path {
+      fill: white;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  color: #727272;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.primary-header {
+  text-align: left;
+  font-family: Mabry Pro Bold;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  color: black;
+}
+
+.secondary-header {
+  font-family: Mabry Pro;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #72727d;
+}
