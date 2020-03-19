@@ -19,10 +19,10 @@ layout: template
                 {% for people in page.people %}
                 {% if site.team contains people %}
                 {% assign member = site.members | where: 'nickname', people | first %}
-                <a href="{{ member.url | prepend: site.baseurl }}">
+                <a href="{{ member.url | prepend: site.url }}">
                     <div class="author">
                         <img class="post-header-avatar"
-                            src="{{ member.picture | prepend: '/static/images/photos/' | prepend: site.baseurl }}"
+                            src="{{ member.picture | prepend: '/static/images/photos/' | prepend: site.url }}"
                             alt="{{ member.fullname }}" />
                         <div class="post-header-author">{{ member.fullname }}</div>
                     </div>

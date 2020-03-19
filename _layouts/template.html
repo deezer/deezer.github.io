@@ -13,7 +13,7 @@
                 {% endif %}">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
     <meta property="og:title" content="{{ page.title }}" />
-    <link rel="stylesheet" href="{{ '/static/css/main.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/static/css/main.css' | prepend: site.url }}">
     <title>
         Deezer Research
         {% if page.fullname %}
@@ -22,9 +22,9 @@
         - {{ page.title | escape }}
         {% endif %}
     </title>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
-        href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+        href="{{ '/feed.xml' | prepend: site.url | prepend: site.url }}">
 </head>
 
 <body>

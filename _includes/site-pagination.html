@@ -2,7 +2,7 @@
 <div class="pagination">
     {%- comment -%} Previous button {%- endcomment -%}
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+    <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}">
         &laquo;Previous
     </a>
     {% endif %}
@@ -28,16 +28,16 @@
     {% if page == paginator.page %}
     <span class="active">{{ page }}</span>
     {% elsif page == 1 %}
-    <a href="{{ site.baseurl }}">{{ page }}</a>
+    <a href="{{ site.url }}">{{ page }}</a>
     {% else %}
     <a
-        href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
     {% endfor %}
 
     {%- comment -%} Next button {%- endcomment -%}
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+    <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">
         Next&raquo;
     </a>
     {% endif %}

@@ -11,7 +11,7 @@
             {% assign author = site.members | where: "nickname", include.post.author | first %}
             <img
                 class="post-header-avatar"
-                src="{{ author.picture | prepend: "/static/images/photos/" | prepend: site.baseurl }}"/>
+                src="{{ author.picture | prepend: "/static/images/photos/" | prepend: site.url }}"/>
             <div class="post-header-content">
                 <div class="post-header-author">
                     {% if include.mode == "publication" %}
@@ -36,7 +36,7 @@
         {% if include.link %}
             <a
                 class="post-permalink"
-                href="{{ include.post.url | prepend: site.baseurl }}">
+                href="{{ include.post.url | prepend: site.url }}">
                 Read more
             </a>
         {% endif %}
