@@ -26,7 +26,7 @@ We evaluate and discuss our method on several variants of existing graph AE and 
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/salha19ijcai/ijcaisummary.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/salha19ijcai/ijcaisummary.png' | prepend: site.url }}"
         alt="K-core decomposition"/>
 </div>
 

@@ -27,7 +27,7 @@ We evaluate the use of embeddings learned from audio in artist classification ta
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/royo18ismir/tsne_art20.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/royo18ismir/tsne_art20.png' | prepend: site.url }}"
         alt="TSNE representation of artist embeddings"/>
 </div>
 

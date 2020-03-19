@@ -27,7 +27,7 @@ audio only.
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/vaglio20icassp/overview_horiz.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/vaglio20icassp/overview_horiz.png' | prepend: site.url }}"
         alt="Overview of the proposed modular approach"/>
 </div>
 

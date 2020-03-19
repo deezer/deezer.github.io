@@ -32,7 +32,7 @@ and Recommendation tasks are noticeably different.
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/dupre18recsys/prediction_table.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/dupre18recsys/prediction_table.png' | prepend: site.url }}"
         alt="Next Event Prediction"/>
 </div>
 

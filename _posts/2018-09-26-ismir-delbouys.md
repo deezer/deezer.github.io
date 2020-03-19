@@ -24,7 +24,7 @@ In this paper, we consider the task of multimodal music mood prediction based on
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/delbouys18ismir/audio_plus_lyrics.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/delbouys18ismir/audio_plus_lyrics.png' | prepend: site.url }}"
         alt="Audio and Lyrics"/>
 </div> 
  
@@ -34,7 +34,7 @@ We compare the performance of both approaches on a database containing 18,000 tr
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/delbouys18ismir/deep_model_multimodal.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/delbouys18ismir/deep_model_multimodal.png' | prepend: site.url }}"
         alt="Multimodal"/>
 </div>
 
@@ -43,7 +43,7 @@ We release [part of our database](https://github.com/deezer/deezer_mood_detectio
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/delbouys18ismir/mood_estimation_results.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/delbouys18ismir/mood_estimation_results.png' | prepend: site.url }}"
         alt="Performances"/>
 </div>
 

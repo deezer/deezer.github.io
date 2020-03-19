@@ -39,7 +39,7 @@ systems. We call this a translation task and identify three cases:
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/epure19ismir/GenreGraphFragment.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/epure19ismir/GenreGraphFragment.png' | prepend: site.url }}"
         alt="Graph Genre Mapping"/>
 </div>
 
@@ -55,13 +55,13 @@ classification metrics.
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/epure19ismir/plot_per_tag_new_colors.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/epure19ismir/plot_per_tag_new_colors.png' | prepend: site.url }}"
         alt="Performances"/>
 </div>
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/epure19ismir/AUC_macro_to_lastfm_with_and_without_reg.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/epure19ismir/AUC_macro_to_lastfm_with_and_without_reg.png' | prepend: site.url }}"
         alt="Performances"/>
 </div>
 

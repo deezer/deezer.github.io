@@ -31,7 +31,7 @@ we propose a sample-level weighted cross entropy loss to account for the confide
 <div class="publication-illustration">
     <img
         style="width: 50%;"
-        src="{{ '/static/images/publis/ibrahim20icassp/track_cooccurences.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/ibrahim20icassp/track_cooccurences.png' | prepend: site.url }}"
         alt="Track Co-occurrences on contexts"/>
 </div>
 

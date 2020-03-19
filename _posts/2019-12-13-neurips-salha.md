@@ -23,7 +23,7 @@ For the two aforementioned tasks, we show that this approach consistently reache
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/salha19neurips/linearsummary.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/salha19neurips/linearsummary.png' | prepend: site.url }}"
         alt="Cora directed graph"/>
 </div>
 

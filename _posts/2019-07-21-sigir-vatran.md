@@ -28,7 +28,7 @@ To alleviate this problem, we propose here a 2-stage negative sampling strategy 
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/tran19sigir/uniform_strategy.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/tran19sigir/uniform_strategy.png' | prepend: site.url }}"
         alt="Performances"/>
 </div>
 

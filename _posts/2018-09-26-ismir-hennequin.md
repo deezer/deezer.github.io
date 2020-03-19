@@ -27,7 +27,7 @@ tags).
 <div class="publication-illustration">
     <img
         style="width: 50%;"
-        src="{{ '/static/images/publis/hennequin18ismir/meaning_discrepancy_vertical.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/hennequin18ismir/meaning_discrepancy_vertical.png' | prepend: site.url }}"
         alt="meaning discrepancy"/>
 </div>
 
@@ -37,7 +37,7 @@ taxonomy of a tag system, spot duplicates tags and translate tags from a tag sys
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/hennequin18ismir/genre_classifier_for_embeddings.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/hennequin18ismir/genre_classifier_for_embeddings.png' | prepend: site.url }}"
         alt="Genre classifier for embeddings"/>
 </div>
 

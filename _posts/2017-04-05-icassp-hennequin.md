@@ -31,7 +31,7 @@ Using proper training data, most existing lossy compression algorithm are detect
 <div class="publication-illustration">
     <img
         style="width: 60%;"
-        src="{{ '/static/images/publis/hennequin17icassp/spectro_artefacts.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/hennequin17icassp/spectro_artefacts.png' | prepend: site.url }}"
         alt="Performances"/>
 </div>
 

@@ -24,7 +24,7 @@ A dictionary learning under time warp is then formalised and a gradient descent 
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/varasteh18ecml/album_clusters.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/varasteh18ecml/album_clusters.png' | prepend: site.url }}"
         alt="album_clusters"/>
 </div>
 

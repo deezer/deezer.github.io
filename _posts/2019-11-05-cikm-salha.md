@@ -29,7 +29,7 @@ We achieve competitive results on three real-world graphs, outperforming several
 
 <div class="publication-illustration">
     <img
-        src="{{ '/static/images/publis/salha19cikm/graph_visu_cora.png' | prepend: site.baseurl }}"
+        src="{{ '/static/images/publis/salha19cikm/graph_visu_cora.png' | prepend: site.url }}"
         alt="Cora directed graph"/>
 </div>
 
