@@ -19,14 +19,24 @@ publication_authors: K. Ibrahim, J. Royo-Letelier, E. V. Epure, G. Peeters, G. R
 publication_conference: ICASSP
 ---
 
-Music listening context such as location or activity has been shown to greatly influence the users' musical tastes.
-In this work, we study the relationship between user context and audio content in order to enable context-aware music recommendation agnostic to user data.
+<p>
+    Music listening context such as location or activity has been shown to greatly influence the
+    users' musical tastes. In this work, we study the relationship between user context and audio
+    content in order to enable context-aware music recommendation agnostic to user data.
+</p>
 
-For that, we propose a semi-automatic procedure to collect track sets which leverages playlist titles as a proxy for context labelling. Using this, we create and release a dataset of approximately 50k tracks labelled with 15 different contexts.
+<p>
+    For that, we propose a semi-automatic procedure to collect track sets which leverages playlist
+    titles as a proxy for context labelling. Using this, we create and release a dataset of approximately
+    50k tracks labelled with 15 different contexts.
+</p>
 
-Then, we present benchmark classification results on the created dataset using an audio auto-tagging model. 
-As the training and evaluation of these models are impacted by missing negative labels due to incomplete annotations,
-we propose a sample-level weighted cross entropy loss to account for the confidence in missing labels and show improved context prediction results.
+<p>
+    Then, we present benchmark classification results on the created dataset using an audio auto-tagging
+    model. As the training and evaluation of these models are impacted by missing negative labels due to
+    incomplete annotations, we propose a sample-level weighted cross entropy loss to account for the
+    confidence in missing labels and show improved context prediction results.
+</p>
 
 <div class="publication-illustration">
     <img
@@ -35,4 +45,7 @@ we propose a sample-level weighted cross entropy loss to account for the confide
         alt="Track Co-occurrences on contexts"/>
 </div>
 
-This paper has been accepted for publication in the proceedings of the 45th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2020).
+<p>
+    This paper has been accepted for publication in the proceedings of the 45th IEEE International Conference
+    on Acoustics, Speech and Signal Processing (ICASSP 2020).
+</p>
