@@ -1,16 +1,16 @@
 <header class="w-100">
     <nav id="navigation">
-        <a id="responsive-menu-brand" href="{{ site.baseurl }}" class="logo">
+        <a id="responsive-menu-brand" href="{{ site.url }}" class="logo">
             <img src="{{ '/static/images/logo-multi-black.svg' | prepend: site.baseurl }}">
             <span class="black">
                 Research
             </span>
         </a>
-        <a id="menu-brand" href="{{ site.baseurl }}" class="logo">
+        <a id="menu-brand" href="{{ site.url }}" class="logo">
             {% if page.index %}
-            <img src="{{ '/static/images/logo-mono-white.svg' | prepend: site.baseurl }}">
+            <img src="{{ '/static/images/logo-mono-white.svg' | prepend: site.url }}">
             {% else %}
-            <img src="{{ '/static/images/logo-multi-black.svg' | prepend: site.baseurl }}">
+            <img src="{{ '/static/images/logo-multi-black.svg' | prepend: site.url }}">
             {% endif %}
             <span class="{% if page.index %}white{% else %}black{% endif %}">
                 Research
@@ -24,7 +24,7 @@
                         active
                     {% else %}
                         unactive
-                    {% endif %}" href="{{ site.baseurl }}">
+                    {% endif %}" href="{{ site.url }}">
                     Publications
                 </a>
             </li>
@@ -35,7 +35,7 @@
                         active
                     {% else %}
                         unactive
-                    {% endif %}" href="{{ "/projects" | prepend: site.baseurl }}">
+                    {% endif %}" href="{{ "/projects" | prepend: site.url }}">
                     Projects & Partnerships
                 </a>
             </li>
@@ -46,7 +46,7 @@
                         active
                     {% else %}
                         unactive
-                    {% endif %}" href="{{ "/about" | prepend: site.baseurl }}">
+                    {% endif %}" href="{{ "/about" | prepend: site.url }}">
                     About
                 </a>
             </li>
