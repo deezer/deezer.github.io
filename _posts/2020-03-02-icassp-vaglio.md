@@ -14,6 +14,7 @@ publication_title: "Audio-Based Detection of Explicit Content in Music"
 publication_year: 2020
 publication_authors: A. Vaglio, R. Hennequin, M. Moussallam, G. Richard, F. d'Alche-Buc
 publication_conference: ICASSP
+publication_preprint: https://ieeexplore.ieee.org/document/9054278
 ---
 
 <p>
