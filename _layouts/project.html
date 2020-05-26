@@ -14,11 +14,14 @@ layout: template
         <div class="post-links mb-60">
             <h2 class="secondary-header mb-30">Publications</h2>
             {% for post in posts %}
+            <div class="mb-30">
             {% include post-header.html 
                         post=post
                         link=true
                         mode="publication" %}
+            </div>
             {% endfor %}
+            
         </div>
         {% endif %}
         <div class="post-links">
