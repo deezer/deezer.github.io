@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Demo: Muzeeglot, a cross-lingual multi-source music item annotation from music genre embeddings"
-date: 2020-06-08 15:44:41 +0200
+date: 2020-06-08 00:00:00 +0200
 category: Publication
 author: eepure
 readtime: 4

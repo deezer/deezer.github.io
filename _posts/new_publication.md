@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: -page title-
-date: 2018-12-31 15:44:41 +0200
+date: 2018-12-31 00:00:00 +0200
 category: Publication
 author: -page author-
 readtime: -estimated read time in minutes-
