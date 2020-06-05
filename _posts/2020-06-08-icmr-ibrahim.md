@@ -25,7 +25,7 @@ MLML has received much attention from the research community. However, in cases 
 <div class="publication-illustration">
     <img
         style="width: 70%;"
-        src="{{ '/static/images/publis/ibrahim20icmr/ibrahim20icmr.png' | prepend: site.url }}"
+        src="{{ '/static/images/publis/ibrahim2020icmr/ibrahim2020icmr.png' | prepend: site.url }}"
         alt="Weighted cross-entropy loss results"/>
 </div>
 
