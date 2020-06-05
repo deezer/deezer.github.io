@@ -33,6 +33,7 @@ Here, we choose a new angle for the genre
 study by seeking to predict what would be the genres of musical items in a
 target tag system, knowing the genres assigned to them within source tag
 systems. We call this a translation task and identify three cases:
+
 1. no common annotated corpus between source and target tag systems exists
 2. such a large corpus exists
 3. only few common annotations exist.
