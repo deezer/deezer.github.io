@@ -51,6 +51,11 @@ layout: template
                     Download PDF
                 </a>
                 {% endif %}
+                {% if page.publication_demo %}
+                <a class="post-link" href="{{ page.publication_demo }}" target="_blank">
+                    View Demo
+                </a>
+                {% endif %}
             </div>
         </div>
         <div class="share-buttons flex">
