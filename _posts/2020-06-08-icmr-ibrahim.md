@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Confidence-based Weighted Loss for Multi-label Classification with Missing Labels"
-date: 2020-06-08 00:00:00 +0200
+title: "Confidence-Based Weighted Loss for Multi-label Classification with Missing Labels"
+date: 2020-06-01 00:00:00 +0200
 category: Publication
 author: kibrahim
 readtime: 6
