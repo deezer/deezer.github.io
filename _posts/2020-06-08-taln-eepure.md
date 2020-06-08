@@ -19,20 +19,29 @@ publication_authors: E. V. Epure, G. Salha,  F. Voituret, M. Baranes, R. Hennequ
 publication_conference: JEP-TALN-RECITAL
 publication_preprint: https://jep-taln2020.loria.fr/article-156/ 
 publication_code: "https://github.com/deezer/muzeeglot"
-publication_demo: "https://muzeeglot.deezer.com"
+publication_demo: "https://research.deezer.com/muzeeglot"
 ---
 
-We present Muzeeglot, a propotype aiming at illustrating how multilingual music genre embedding space representations can be leveraged to generate cross-lingual music genre annotations for DBpedia music entities (artists, albums, tracks...).
+We present <i>Muzeeglot</i>, a propotype aiming at illustrating how multilingual music genre embedding space representations can be leveraged to generate cross-lingual music genre annotations for <a href="https://wiki.dbpedia.org">DBpedia</a> music entities (artists, albums, tracks...).
 
 <div class="publication-illustration">
     <img
-        style="width: 90%;"
+        style="width: 90%; filter: drop-shadow(0 0 0.75rem crimson);"
         src="{{ '/static/images/publis/epure20taln/epure20taln.png' | prepend: site.url }}"
         alt="Muzeeglot"/>
 </div>
 
-Muzeeglot includes a web interface to visualize these multilingual music genres embeddings.
+<i>Muzeeglot</i> includes a web interface to visualize these multilingual music genres embeddings.
 
-Based on annotations from one or several sources languages, our system automatically predicts the corresponding annotations in a target language. Languages supported: French (fr), English (en), Spanish (es), Dutch (nl), Czech (cs) and Japanese (ja).
+Based on annotations from one or several sources languages, our system automatically predicts the corresponding annotations in a target language. Languages supported: 
 
-Muzeeglot will be presented as a demonstration at the JEP-TALN-RECITAL 2020 conference.
+<ul>
+    <li>French (fr)</li>
+    <li>English (en)</li>
+    <li>Spanish (es)</li>
+    <li>Dutch (nl)</li>
+    <li>Czech (cs)</li>
+    <li>Japanese (ja)</li>
+</ul>
+
+<i>Muzeeglot</i> will be presented as a demonstration at the <a href="https://jep-taln2020.loria.fr">JEP-TALN-RECITAL 2020</a> conference.
