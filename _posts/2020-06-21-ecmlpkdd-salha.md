@@ -34,6 +34,12 @@ AE and VAE models have been successfully applied to address several challenging 
 results w.r.t. popular baselines. These tasks include link prediction, node clustering, matrix completion for inference and recommendation and molecular graph generation. Existing models usually rely on graph neural networks (GNN) to encode nodes into embeddings. 
 More precisely, most of them implement <i>graph convolutional networks</i> (GCN) encoders with multiple layers, a model originally introduced by Kipf and Welling (ICLR 2017).
 
+<div class="publication-illustration">
+    <img
+        src="{{ '/static/images/publis/salha19neurips/linearsummary.png' | prepend: site.url }}"
+        alt="Linear graph AE and VAE models"/>
+</div>
+
 However, despite the prevalent use of GCN encoders in recent literature, the relevance of this design choice has never been thoroughly studied nor challenged.
 The actual benefit of incorporating GCNs in graph AE and VAE w.r.t. significantly simpler encoding strategies remains unclear.
 In this paper, we propose to tackle this important aspect, showing that GCN-based graph AE and VAE are often unnecessarily complex for numerous applications.
@@ -43,18 +49,14 @@ More precisely, our contribution is threefold:
 <ul>
     <li> We introduce and study simpler versions of graph AE and VAE, replacing multi-layer GCN encoders by linear models w.r.t. the direct neighborhood (one-hop) adjacency matrix of the graph, involving a unique weight matrix to tune, fewer operations and no activation function. </li>
     <li> Through an extensive empirical analysis on 17 real-world graphs with various sizes and characteristics, we show that these simplified models consistently reach competitive performances w.r.t. GCN-based graph AE and VAE on link prediction and node clustering tasks. We identify the settings where simple linear encoders appear as an effective alternative to GCNs, and as first relevant baseline to implement before diving into more complex models. We also question the relevance of current benchmark datasets (Cora, Citeseer, Pubmed) commonly used in the literature to evaluate graph AE and VAE. </li>
-    <li> We publicly release the code of these experiments, for reproducibility and easier future usages.
+    <li> We publicly release the code of these experiments, for reproducibility and easier future usages. </li>
 </ul>
 
-<div class="publication-illustration">
-    <img
-        src="{{ '/static/images/publis/salha19neurips/linearsummary.png' | prepend: site.url }}"
-        alt="Linear graph AE and VAE models"/>
-</div>
 
 This paper has been published in the proceedings of the European Conference on Machine Learning 
 and Principles and Practice of Knowledge Discovery in
 Databases (<a href="https://ecmlpkdd2020.net/">ECML-PKDD 2020</a>). 
 
+
 Moreover, a <a href="https://arxiv.org/pdf/1910.00942.pdf">preliminary version of this work</a> has also 
-been presented at the NeurIPS 2019 workshop on Graph Representation Learning.
+been presented at the <a href="https://nips.cc/Conferences/2019">NeurIPS 2019</a> workshop on Graph Representation Learning.
