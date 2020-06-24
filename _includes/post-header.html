@@ -22,7 +22,11 @@
                 </div>
                 <div class="post-header-description">
                     {% if include.mode == "publication" %}
-                        {{ include.post.publication_conference }} - {{ include.post.publication_year }}                        
+                        {% if include.post.publication_type == "conference" %}
+                            {{ include.post.publication_conference }} - {{ include.post.publication_year }}
+                        {% else if include.post.publication_type == "journal" %}
+                            {{ include.post.publication_journal }} - {{ include.post.publication_year }}
+                        {% endif %}
                     {% else if include.mode == "news" %}
                         <time
                             datetime="{{ include.post.date | date_to_xmlschema }}"

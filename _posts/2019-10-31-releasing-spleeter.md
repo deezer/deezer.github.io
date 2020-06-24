@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Open Sourcing Spleeter
-date: 2019-10-31 15:44:41 +0200
-category: News
-author: mmoussallam
+title: "Spleeter: a fast and efficient music source separation tool with pre-trained models"
+date: 2020-06-24 15:44:41 +0200
+category: Publication
+author: rhennequin
 readtime: 6
 projects:
  - Spleeter
@@ -12,12 +12,12 @@ people:
  - akhlif
  - fvoituret
  - mmoussallam
-publication_type: conference
-publication_title: "Spleeter: a fast and state-of-the art music source separation tool with pre-trained models"
-publication_year: 2019
+publication_type: journal
+publication_title: "Spleeter: a fast and efficient music source separation tool with pre-trained models"
+publication_year: 2020
 publication_authors: R. Hennequin, A. Khlif, F. Voituret, M. Moussallam
-publication_conference: ISMIR Late-Breaking Demo Session
-publication_preprint: "http://archives.ismir.net/ismir2019/latebreaking/000036.pdf"
+publication_journal: "Journal of Open Source Software"
+publication_preprint: "https://joss.theoj.org/papers/10.21105/joss.02154"
 publication_code: "https://github.com/deezer/spleeter"
 ---
 We present and release a new tool for music source separation with pre-trained models called **Spleeter**. It was designed with ease of use, separation performance and speed in mind. It is based on [Tensorflow](http://tensorflow.org) and makes it possible to:
