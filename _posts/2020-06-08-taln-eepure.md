@@ -11,6 +11,7 @@ people:
  - fvoituret
  - mbaranes
  - rhennequin
+permalink: /muzeeglot
 publication_type: conference
 publication_title: "Muzeeglot : cross-lingual multi-source music item annotation from music genre embeddings"
 publication_year: 2020
