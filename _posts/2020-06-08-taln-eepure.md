@@ -20,7 +20,6 @@ publication_authors: E. V. Epure, G. Salha,  F. Voituret, M. Baranes, R. Hennequ
 publication_conference: JEP-TALN-RECITAL
 publication_preprint: https://jep-taln2020.loria.fr/article-156/ 
 publication_code: "https://github.com/deezer/muzeeglot"
-publication_demo: "https://research.deezer.com/muzeeglot"
 ---
 
 We present <i>Muzeeglot</i>, a propotype aiming at illustrating how multilingual music genre embedding space representations can be leveraged to generate cross-lingual music genre annotations for <a href="https://wiki.dbpedia.org">DBpedia</a> music entities (artists, albums, tracks...).
