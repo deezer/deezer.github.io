@@ -15,7 +15,7 @@ publication_title: "Codec Independent Lossy Audio Compression Detection"
 publication_year: 2017
 publication_authors: R. Hennequin, J. Royo-Letelier, M. Moussallam
 publication_conference: ICASSP
-publication_preprint: https://arxiv.org/pdf/1907.08698.pdf
+publication_preprint: http://romain-hennequin.fr/doc/ICASSP2017_Deezer_quality_estimation.pdf
 ---
 
 In this paper, we propose a method for detecting marks of lossy compression encoding, such as MP3 or AAC, from PCM audio. The
