@@ -10,7 +10,7 @@ people:
  - marcos
  - rhennequin
 
-publication_type: late-breaking demo
+publication_type: conference
 publication_title: Large-Scale Cover Song Detection in Digital Music Libraries Using Metadata, Lyrics and Audio Features
 publication_year: 2018
 publication_authors: A. Correya, M. Arcos, R. Hennequin
