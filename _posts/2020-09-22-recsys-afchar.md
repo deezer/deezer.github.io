@@ -12,7 +12,7 @@ people:
  - dafchar
  - rhennequin
 publication_type: conference
-publication_title: Making Neural Networks Interpretable with Attribution: Application to Implicit Signals Prediction
+publication_title: "Making Neural Networks Interpretable with Attribution: Application to Implicit Signals Prediction"
 publication_year: 2020
 publication_authors: D. Afchar, R. Hennequin
 publication_conference: RecSys
