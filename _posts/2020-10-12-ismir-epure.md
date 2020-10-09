@@ -18,6 +18,7 @@ publication_year: 2020
 publication_authors: E. V. Epure, G. Salha, R. Hennequin
 publication_conference: ISMIR
 #publication_preprint: https://program.ismir2020.net/poster_4-06.html
+publication_code: https://github.com/deezer/MultilingualMusicGenreEmbedding
 ---
 
 Annotating music items with music genres is crucial for music recommendation and information retrieval, yet challenging given that music genres are subjective concepts.

@@ -31,4 +31,4 @@ Lyrics-to-audio alignment methods have recently reported impressive results, ope
 
 In this paper, we address the lyrics-to-audio alignment task in a generalized multi-lingual setup.  More precisely,  this investigation presents the  first  (to  the  best  of  our  knowledge)  attempt  to  create a language-independent lyrics-to-audio alignment system.  Building  on  a Recurrent  Neural  Network (RNN) model trained with a Connectionist Temporal Classification (CTC) algorithm, we study the relevance of different intermediate representations, either character or phoneme, along with several strategies to design a training set. The evaluation is conducted on multiple languages with a varying amount of data available, from plenty to zero.  Results show that learning from diverse data and using a universal phoneme set as an intermediate representation yield thebest generalization performances.
 
-This work was presented during the 21rst ISMIR Conference in October 2020.
+This work was presented during the 21st ISMIR Conference in October 2020.
