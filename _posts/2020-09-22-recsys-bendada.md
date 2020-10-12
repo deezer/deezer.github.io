@@ -13,7 +13,7 @@ people:
 publication_type: conference
 publication_title: "Carousel Personalization in Music Streaming Apps with Contextual Bandits"
 publication_year: 2020
-publication_authors: W. Bendada, G. Salha, T.Bontempelli
+publication_authors: W. Bendada, G. Salha, T. Bontempelli
 publication_conference: RecSys
 publication_preprint: https://arxiv.org/pdf/2009.06546.pdf
 publication_code: https://github.com/deezer/carousel_bandits
@@ -34,7 +34,7 @@ screen to see some of the additional cards from the carousel.
 
 <div class="publication-illustration">
     <img
-        style="width: 70%;"
+        style="width: 40%;"
         src="{{ '/static/images/publis/bendada20recsys/carousel.png' | prepend: site.url }}"
         alt="Carousels on Deezer"/>
 </div>
@@ -57,7 +57,7 @@ large-scale carousel-based playlist recommendation task on the global mobile app
 
 <div class="publication-illustration">
     <img
-        style="width: 80%;"
+        style="width: 60%;"
         src="{{ '/static/images/publis/bendada20recsys/general_exp.png' | prepend: site.url }}"
         alt="Cumulative Regrets of Bandits Policies for Playlist Recommendation"/>
 </div>
@@ -68,7 +68,7 @@ on <a href="https://zenodo.org/record/4048678#.X4RYk5Mza3J">Zenodo</a>.
 
 <div class="publication-illustration">
     <img
-        style="width: 70%;"
+        style="width: 40%;"
         src="{{ '/static/images/publis/bendada20recsys/zenodo.png' | prepend: site.url }}"
         alt="Datasets"/>
 </div>
