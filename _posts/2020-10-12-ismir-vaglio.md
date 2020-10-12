@@ -4,7 +4,7 @@ tags:
   - ismir
   - lyrics
   - multilingual
-title: Multilingual lyrics-to-audio alignment
+title: Multilingual Lyrics-to-Audio Alignment
 date: 2020-10-12 00:00:00 +0200
 category: Publication
 author: avaglio

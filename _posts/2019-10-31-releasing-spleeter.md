@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spleeter: a fast and efficient music source separation tool with pre-trained models"
+title: "Spleeter: a Fast and Efficient Music Source Separation Tool with Pre-Trained Models"
 date: 2020-06-24 15:44:41 +0200
 category: Publication
 author: rhennequin
