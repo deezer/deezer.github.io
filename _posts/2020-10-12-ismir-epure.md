@@ -17,7 +17,7 @@ publication_title: Multilingual Music Genre Embeddings for Effective Cross-Lingu
 publication_year: 2020
 publication_authors: E. V. Epure, G. Salha, R. Hennequin
 publication_conference: ISMIR
-#publication_preprint: https://program.ismir2020.net/poster_4-06.html
+publication_preprint: https://arxiv.org/pdf/2009.07755.pdf
 publication_code: https://github.com/deezer/MultilingualMusicGenreEmbedding
 ---
 
@@ -39,4 +39,4 @@ Second, we adapt the tag representations to the music domain by leveraging multi
 Experiments show that our method: 1) is effective in translating music genres across tag systems in multiple languages (English, French and Spanish);
 2) outperforms the previous baseline in an English-language multi-source translation task.
 
-This work was presented during the 21st ISMIR Conference in October 2020.
+This paper has been published in the proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR 2020).

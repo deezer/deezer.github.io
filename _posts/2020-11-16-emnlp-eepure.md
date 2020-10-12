@@ -35,4 +35,4 @@ Our study, focused on six languages, shows that unsupervised cross-lingual music
 This approach of studying music genres is the most extensive to date and has many implications in musicology and music information retrieval.
 Besides, we introduce a new, domain-dependent cross-lingual corpus to benchmark state of the art multilingual pre-trained embedding models.
 
-This work will be presented at the EMNLP 2020 Conference.
+This paper will be published in the proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020).

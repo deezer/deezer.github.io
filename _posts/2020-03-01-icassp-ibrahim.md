@@ -39,5 +39,5 @@ confidence in missing labels and show improved context prediction results.
         alt="Track Co-occurrences on contexts"/>
 </div>
 
-This paper has been accepted for publication in the proceedings of the 45th IEEE International Conference
+This paper has been published in the proceedings of the 45th IEEE International Conference
 on Acoustics, Speech and Signal Processing (ICASSP 2020).

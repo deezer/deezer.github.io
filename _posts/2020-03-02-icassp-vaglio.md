@@ -35,5 +35,5 @@ We demonstrate the individual relevance of our modules on a set of sub-tasks and
 approach to a lyrics-informed oracle and an end-to-end naive architecture. The results obtained
 are encouraging with a F1-score of 67% on a industrial scale explicit content dataset.
 
-This paper has been accepted for publication in the proceedings of the 45th IEEE International
+This paper has been published in the proceedings of the 45th IEEE International
 Conference on Acoustics, Speech and Signal Processing (ICASSP 2020).

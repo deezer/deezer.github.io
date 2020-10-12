@@ -16,7 +16,7 @@ publication_title: "Making Neural Networks Interpretable with Attribution: Appli
 publication_year: 2020
 publication_authors: D. Afchar, R. Hennequin
 publication_conference: RecSys
-publication_preprint: https://arxiv.org/abs/2008.11406
+publication_preprint: https://arxiv.org/pdf/2008.11406.pdf
 publication_code: https://github.com/deezer/interpretable_nn_attribution
 ---
 
@@ -29,4 +29,4 @@ Explaining recommendations enables users to understand whether recommended items
         alt="Interpretable Models architecture"/>
 </div>
 
-This work was presented during the RecSys Conference in September 2020.
+This paper has been published in the proceedings of the 14th ACM Conference on Recommender Systems (RecSys 2020).

@@ -13,7 +13,7 @@ people:
  - rhennequin
  - mmoussallam
 publication_type: conference
-publication_title: Multilingual lyrics-to-audio alignment
+publication_title: Multilingual Lyrics-to-Audio Alignment
 publication_year: 2020
 publication_authors: A. Vaglio, R. Hennequin, M. Moussallam, G. Richard, F. d’Alché-Buc
 publication_conference: ISMIR
@@ -31,4 +31,4 @@ Lyrics-to-audio alignment methods have recently reported impressive results, ope
 
 In this paper, we address the lyrics-to-audio alignment task in a generalized multi-lingual setup.  More precisely,  this investigation presents the  first  (to  the  best  of  our  knowledge)  attempt  to  create a language-independent lyrics-to-audio alignment system.  Building  on  a Recurrent  Neural  Network (RNN) model trained with a Connectionist Temporal Classification (CTC) algorithm, we study the relevance of different intermediate representations, either character or phoneme, along with several strategies to design a training set. The evaluation is conducted on multiple languages with a varying amount of data available, from plenty to zero.  Results show that learning from diverse data and using a universal phoneme set as an intermediate representation yield thebest generalization performances.
 
-This work was presented during the 21st ISMIR Conference in October 2020.
+This paper has been published in the proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR 2020).

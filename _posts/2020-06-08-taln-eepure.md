@@ -18,7 +18,7 @@ publication_year: 2020
 publication_month: June
 publication_authors: E. V. Epure, G. Salha,  F. Voituret, M. Baranes, R. Hennequin
 publication_conference: JEP-TALN-RECITAL
-publication_preprint: https://jep-taln2020.loria.fr/article-156/ 
+publication_preprint: https://www.aclweb.org/anthology/2020.jeptalnrecital-demos.5.pdf
 publication_code: "https://github.com/deezer/muzeeglot"
 ---
 
@@ -26,7 +26,7 @@ We present <i>Muzeeglot</i>, a propotype aiming at illustrating how multilingual
 
 <div class="publication-illustration">
     <img
-        style="width: 90%; filter: drop-shadow(0 0 0.75rem crimson);"
+        style="width: 90%;"
         src="{{ '/static/images/publis/epure20taln/epure20taln.png' | prepend: site.url }}"
         alt="Muzeeglot"/>
 </div>
@@ -44,4 +44,4 @@ Based on annotations from one or several sources languages, our system automatic
     <li>Japanese (ja)</li>
 </ul>
 
-<i>Muzeeglot</i> will be presented as a demonstration at the <a href="https://jep-taln2020.loria.fr">JEP-TALN-RECITAL 2020</a> conference.
+<i>Muzeeglot</i> has been presented as a demonstration at the <a href="https://jep-taln2020.loria.fr">JEP-TALN-RECITAL 2020</a> conference.
