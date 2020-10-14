@@ -16,7 +16,7 @@ publication_year: 2020
 publication_authors: E. V. Epure, G. Salha, M. Moussallam, R. Hennequin
 publication_conference: EMNLP
 publication_code: "https://github.com/deezer/CrossCulturalMusicGenrePerception"
-#publication_preprint: https://jep-taln2020.loria.fr/article-156/ 
+publication_preprint: "https://arxiv.org/pdf/2010.06325.pdf"
 ---
 
 The music genre perception expressed through human annotations of artists or albums varies significantly across language-bound cultures.
@@ -36,4 +36,3 @@ Besides, we introduce a new, domain-dependent cross-lingual corpus to benchmark 
 </div>
 
 This paper will be published in the proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020).
-The paper and source code will be available soon.
