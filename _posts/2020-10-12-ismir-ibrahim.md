@@ -8,6 +8,8 @@ title: Should We Consider the Users in Contextual Music Auto-Tagging Models?
 date: 2020-10-12 00:00:00 +0200
 category: Publication
 author: kibrahim
+projects:
+ - MIP-Frontiers
 people:
  - kibrahim
  - eepure
