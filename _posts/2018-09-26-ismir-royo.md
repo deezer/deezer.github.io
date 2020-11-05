@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metric Learning for Music Artist Disambiguation from Audio
+title: Disambiguating Music Artists at Scale with Audio Metric Learning
 date: 2018-09-26 15:44:41 +0200
 category: Publication
 author: royo-letelier
@@ -9,11 +9,12 @@ people:
  - rhennequin
  - mmoussallam
  - royo-letelier
+ - vatran
 
 publication_type: conference
-publication_title: Metric Learning for Music Artist Disambiguation from Audio
+publication_title: Disambiguating Music Artists at Scale with Audio Metric Learning
 publication_year: 2018
-publication_authors: J. Royo-Letelier, R. Hennequin, M. Moussallam
+publication_authors: J. Royo-Letelier, R. Hennequin, V-A. Tran, M. Moussallam
 publication_conference: ISMIR
 publication_preprint: "http://ismir2018.ircam.fr/doc/pdfs/211_Paper.pdf"
 publication_code: "https://github.com/deezer/Disambiguating-Music-Artists-at-Scale-with-Audio-Metric-Learning"
