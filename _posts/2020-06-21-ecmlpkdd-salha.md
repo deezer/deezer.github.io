@@ -11,7 +11,7 @@ people:
 publication_type: conference
 publication_title: "Simple and Effective Graph Autoencoders with One-Hop Linear Models"
 publication_year: 2020
-publication_authors: G. Salha, R. Hennequin, M. Vazirgiannis
+publication_authors: G. Salha-Galvan, R. Hennequin, M. Vazirgiannis
 publication_conference: ECML-PKDD
 publication_preprint: "https://arxiv.org/pdf/2001.07614.pdf"
 publication_code: "https://github.com/deezer/linear_graph_autoencoders"

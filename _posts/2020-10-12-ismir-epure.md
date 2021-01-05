@@ -15,7 +15,7 @@ people:
 publication_type: conference
 publication_title: Multilingual Music Genre Embeddings for Effective Cross-Lingual Music Item Annotation
 publication_year: 2020
-publication_authors: E. V. Epure, G. Salha, R. Hennequin
+publication_authors: E. V. Epure, G. Salha-Galvan, R. Hennequin
 publication_conference: ISMIR
 publication_preprint: https://arxiv.org/pdf/2009.07755.pdf
 publication_code: https://github.com/deezer/MultilingualMusicGenreEmbedding

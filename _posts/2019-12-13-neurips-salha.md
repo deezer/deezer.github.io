@@ -11,7 +11,7 @@ people:
 publication_type: conference
 publication_title: "Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks"
 publication_year: 2019
-publication_authors: G. Salha, R. Hennequin, M. Vazirgiannis
+publication_authors: G. Salha-Galvan, R. Hennequin, M. Vazirgiannis
 publication_conference: NeurIPS GRL
 publication_preprint: "https://arxiv.org/pdf/1910.00942.pdf"
 publication_code: "https://github.com/deezer/linear_graph_autoencoders"

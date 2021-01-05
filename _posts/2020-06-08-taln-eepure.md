@@ -16,7 +16,7 @@ publication_type: conference
 publication_title: "Muzeeglot : cross-lingual multi-source music item annotation from music genre embeddings"
 publication_year: 2020
 publication_month: June
-publication_authors: E. V. Epure, G. Salha,  F. Voituret, M. Baranes, R. Hennequin
+publication_authors: E. V. Epure, G. Salha-Galvan,  F. Voituret, M. Baranes, R. Hennequin
 publication_conference: JEP-TALN-RECITAL
 publication_preprint: https://www.aclweb.org/anthology/2020.jeptalnrecital-demos.5.pdf
 publication_code: "https://github.com/deezer/muzeeglot"

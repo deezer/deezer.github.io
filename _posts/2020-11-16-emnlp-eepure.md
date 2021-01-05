@@ -13,7 +13,7 @@ people:
 publication_type: conference
 publication_title: "Modeling the Music Genre Perception across Language-Bound Cultures"
 publication_year: 2020
-publication_authors: E. V. Epure, G. Salha, M. Moussallam, R. Hennequin
+publication_authors: E. V. Epure, G. Salha-Galvan, M. Moussallam, R. Hennequin
 publication_conference: EMNLP
 publication_code: "https://github.com/deezer/CrossCulturalMusicGenrePerception"
 publication_preprint: "https://arxiv.org/pdf/2010.06325.pdf"

@@ -13,7 +13,7 @@ people:
 publication_type: conference
 publication_title: "Carousel Personalization in Music Streaming Apps with Contextual Bandits"
 publication_year: 2020
-publication_authors: W. Bendada, G. Salha, T. Bontempelli
+publication_authors: W. Bendada, G. Salha-Galvan, T. Bontempelli
 publication_conference: RecSys
 publication_preprint: https://arxiv.org/pdf/2009.06546.pdf
 publication_code: https://github.com/deezer/carousel_bandits

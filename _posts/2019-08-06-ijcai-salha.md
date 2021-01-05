@@ -12,7 +12,7 @@ people:
 publication_type: conference
 publication_title: "A Degeneracy Framework for Scalable Graph Autoencoders"
 publication_year: 2019
-publication_authors: G. Salha, R. Hennequin, V-A. Tran, M. Vazirgiannis
+publication_authors: G. Salha-Galvan, R. Hennequin, V-A. Tran, M. Vazirgiannis
 publication_conference: IJCAI
 publication_preprint: " https://arxiv.org/pdf/1902.08813.pdf"
 publication_code: "https://github.com/deezer/linear_graph_autoencoders"

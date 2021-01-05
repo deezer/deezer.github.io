@@ -12,7 +12,7 @@ people:
 publication_type: conference
 publication_title: "Gravity-Inspired Graph Autoencoders for Directed Link Prediction"
 publication_year: 2019
-publication_authors: G. Salha, S. Limnios, R. Hennequin, V-A. Tran, M. Vazirgiannis
+publication_authors: G. Salha-Galvan, S. Limnios, R. Hennequin, V-A. Tran, M. Vazirgiannis
 publication_conference: CIKM
 publication_preprint: "https://arxiv.org/pdf/1905.09570.pdf"
 publication_code: "https://github.com/deezer/gravity_graph_autoencoders"
