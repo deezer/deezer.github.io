@@ -1,8 +1,8 @@
 ---
 nickname: gsalha
 firtname: Guillaume
-lastname: Salha
-fullname: Guillaume Salha
+lastname: Salha-Galvan
+fullname: Guillaume Salha-Galvan
 position: Research Scientist - PhD Candidate
 picture: guillaume.jpg
 active: true
