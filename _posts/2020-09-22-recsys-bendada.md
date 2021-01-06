@@ -9,7 +9,7 @@ date: 2020-09-22 00:00:00 +0200
 category: Publication
 author: gsalha
 people:
- - gsalha
+ - gsalhagalvan
 publication_type: conference
 publication_title: "Carousel Personalization in Music Streaming Apps with Contextual Bandits"
 publication_year: 2020
