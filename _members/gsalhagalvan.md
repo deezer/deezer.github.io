@@ -1,5 +1,5 @@
 ---
-nickname: gsalha
+nickname: gsalhagalvan
 firtname: Guillaume
 lastname: Salha-Galvan
 fullname: Guillaume Salha-Galvan
