@@ -7,7 +7,7 @@ tags:
 title: Carousel Personalization in Music Streaming Apps with Contextual Bandits
 date: 2020-09-22 00:00:00 +0200
 category: Publication
-author: gsalha
+author: gsalhagalvan
 people:
  - gsalhagalvan
 publication_type: conference
