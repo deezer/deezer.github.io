@@ -3,10 +3,10 @@ layout: post
 title: "A Degeneracy Framework for Scalable Graph Autoencoders"
 date: 2019-08-06 15:44:41 +0200
 category: Publication
-author: gsalha
+author: gsalhagalvan
 readtime: 6
 people:
- - gsalha
+ - gsalhagalvan
  - rhennequin
  - vatran
 publication_type: conference
