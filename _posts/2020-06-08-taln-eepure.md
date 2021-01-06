@@ -7,7 +7,7 @@ author: eepure
 readtime: 4
 people:
  - eepure
- - gsalha
+ - gsalhagalvan
  - fvoituret
  - mbaranes
  - rhennequin
