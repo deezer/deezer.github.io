@@ -3,10 +3,10 @@ layout: post
 title: "Simple and Effective Graph Autoencoders with One-Hop Linear Models"
 date: 2020-06-21 10:00:00 +0200
 category: Publication
-author: gsalha
+author: gsalhagalvan
 readtime: 5
 people:
- - gsalha
+ - gsalhagalvan
  - rhennequin
 publication_type: conference
 publication_title: "Simple and Effective Graph Autoencoders with One-Hop Linear Models"
