@@ -10,7 +10,7 @@ category: Publication
 author: eepure
 people:
  - eepure
- - gsalha
+ - gsalhagalvan
  - rhennequin
 publication_type: conference
 publication_title: Multilingual Music Genre Embeddings for Effective Cross-Lingual Music Item Annotation
