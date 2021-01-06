@@ -7,7 +7,7 @@ author: eepure
 readtime: 4
 people:
  - eepure
- - gsalha
+ - gsalhagalvan
  - mmoussallam
  - rhennequin
 publication_type: conference

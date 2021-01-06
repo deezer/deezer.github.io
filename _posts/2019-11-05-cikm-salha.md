@@ -3,10 +3,10 @@ layout: post
 title: "Gravity-Inspired Graph Autoencoders for Directed Link Prediction"
 date: 2019-11-05 15:44:41 +0200
 category: Publication
-author: gsalha
+author: gsalhagalvan
 readtime: 6
 people:
- - gsalha
+ - gsalhagalvan
  - rhennequin
  - vatran
 publication_type: conference

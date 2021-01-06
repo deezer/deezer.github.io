@@ -3,10 +3,10 @@ layout: post
 title: "Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks"
 date: 2019-12-13 10:00:00 +0200
 category: Publication
-author: gsalha
+author: gsalhagalvan
 readtime: 5
 people:
- - gsalha
+ - gsalhagalvan
  - rhennequin
 publication_type: conference
 publication_title: "Keep It Simple: Graph Autoencoders Without Graph Convolutional Networks"
