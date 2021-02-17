@@ -16,7 +16,7 @@ people:
 publication_type: conference
 publication_title: Should We Consider the Users in Contextual Music Auto-Tagging Models?
 publication_year: 2020
-publication_authors: K. Ibrahim, E. Epure, G. Peeters, G. Richard
+publication_authors: K. Ibrahim, E. V. Epure, G. Peeters, G. Richard
 publication_conference: ISMIR
 publication_preprint: https://program.ismir2020.net/poster_2-17.html
 ---
