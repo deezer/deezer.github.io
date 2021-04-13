@@ -29,7 +29,7 @@ are also presented.
 
 <div class="publication-illustration">
     <img
-        style="width: 75%;"
+        style="width: 50%;"
         src="{{ '/static/images/publis/renault21icassp/icassp21.png' | prepend: site.url }}"
         alt="Overview of the proposed Singing Language Identification (SLID) system"/>
 </div>
