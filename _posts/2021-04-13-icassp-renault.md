@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Singing Language Identification using a Deep Phonotactic Approach"
-date: 2021-04-13 01:01:01 +0200
+date: 2021-04-12 11:10:10 +0200
 category: Publication
 author: avaglio
 readtime: 6
@@ -9,9 +9,9 @@ people:
  - avaglio
  - rhennequin
 publication_type: conference
-publication_title: "Singing Language Identification using a Deep Phonotactic Approach
+publication_title: "Singing Language Identification using a Deep Phonotactic Approach"
 publication_year: 2021
-publication_authors: L. Renault, A. Vaglio, R. Hennequin
+publication_authors:  L. Renault, A. Vaglio, R. Hennequin
 publication_conference: ICASSP
 publication_preprint:
 publication_code: "https://github.com/deezer/SingingLanguageIdentification"
@@ -25,6 +25,7 @@ a _Connectionist Temporal Classification (CTC)-based acoustic model_ trained wit
 classification with a recurrent model based on the phonemes estimation. The full pipeline is trained and evaluated with a
 large and publicly available dataset, with unprecedented performances. First results of SLID with out-of-set languages
 are also presented.
+
 
 <div class="publication-illustration">
     <img
