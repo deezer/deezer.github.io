@@ -5,6 +5,8 @@ date: 2021-04-10 11:10:10 +0200
 category: Publication
 author: rhennequin
 readtime: 2
+projects:
+ - WASABI
 people:
  - rhennequin
 publication_type: conference
