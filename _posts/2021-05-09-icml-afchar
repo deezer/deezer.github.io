@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Towards Rigorous Interpretations: a Formalisation of Feature Attribution"
-date: 2021-05-09 10:00:00 +0200
+date: 2021-05-09 10:00:00 +0100
 category: Publication
 author: dafchar
 readtime: 6
@@ -24,4 +24,4 @@ In this paper we propose to formalise feature selection/attribution based on the
 In particular, we extend our notions to the instance-wise setting and derive necessary properties for candidate selection solutions, while leaving room for task-dependence.
 By computing ground-truth attributions on synthetic datasets, we evaluate many state-of-the-art attribution methods and show that, even when optimised, some fail to verify the proposed properties and provide wrong solutions.
 
-This paper will been published in the proceedings of the 28th ACM International Conference on Machine Learning (ICML 2021)
+This paper will been published in the proceedings of the 28th International Conference on Machine Learning (ICML 2021).
