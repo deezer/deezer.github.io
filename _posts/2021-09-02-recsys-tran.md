@@ -33,7 +33,7 @@ Our experiments also emphasize the limits of current CML relational models on ve
     <img
         style="width: 70%;"
         src="{{ '/static/images/publis/salhagalvan21recsys/table.png' | prepend: site.url }}"
-        alt="A Semi-Personalized System for User Cold Start Recommendation"/>
+        alt="Top-10 item recommendation using HLR"/>
 </div>
 
 This paper has been accepted for publication in the proceedings of the 15th ACM Conference on Recommender Systems (RecSys 2021).
