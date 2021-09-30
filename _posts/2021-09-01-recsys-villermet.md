@@ -12,6 +12,7 @@ publication_title: "Follow the Guides: Disentangling Human and Algorithmic Curat
 publication_year: 2021
 publication_authors: Q. Villermet, J. Poiroux, M. Moussallam, T. Louail, C. Roth
 publication_conference: RecSys
+publication_preprint: "https://arxiv.org/pdf/2109.03915.pdf"
 ---
 
 The role of recommendation devices of music streaming platforms on content consumption and user tastes is at the heart of an active
@@ -25,4 +26,4 @@ that they might correspond to opposite roles. We suggest to speak of filter nich
 for the study and design of recommendation systems.
 
 This paper has been accepted for publication in the proceedings of the 15th ACM Conference on Recommender Systems (RecSys 2021).
-It will be online soon.
+It was selected among the Best Paper shortlist and received an honourable mention.
