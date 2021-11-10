@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "The Words Remain the Same: Cover Detection With Lyrics Transcription"
 date: 2021-11-08 10:00:00 +0200
 category: Publication
 author: avaglio
