@@ -25,7 +25,7 @@ In this paper, we call into question the perceptual robustness of the most used 
 <div class="publication-illustration">
     <img
         style="width: 70%;"
-        src="{{ '/static/images/publis/lizemasclef21ismir/proportion_fitted.pdf' | prepend: site.url }}"
+        src="{{ '/static/images/publis/lizemasclef21ismir/proportion_fitted.png' | prepend: site.url }}"
         alt="Psychometric function fit to user perception of asynchrony in our Karaoke experiment"/>
 </div>
 
