@@ -13,7 +13,7 @@ publication_type: conference
 publication_title: "The words remain the same: cover detection with lyrics transcription"
 publication_year: 2021
 publication_authors:  A. Vaglio, R. Hennequin, M. Moussallam, G. Richard
-publication_conference: RecSys
+publication_conference: ISMIR
 publication_preprint: "https://archives.ismir.net/ismir2021/paper/000089.pdf"
 ---
 
