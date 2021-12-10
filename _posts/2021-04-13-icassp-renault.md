@@ -14,6 +14,7 @@ publication_year: 2021
 publication_authors:  L. Renault, A. Vaglio, R. Hennequin
 publication_conference: ICASSP
 publication_preprint:
+    "https://arxiv.org/pdf/2105.15014.pdf"
 publication_code: "https://github.com/deezer/SingingLanguageIdentification"
 ---
 
@@ -35,6 +36,6 @@ are also presented.
 </div>
 
 
-This paper will be published in the proceedings of the [46th IEEE International
+This paper was published in the proceedings of the [46th IEEE International
 Conference on Acoustics, Speech and Signal Processing (ICASSP 2021)](https://2021.ieeeicassp.org/). 
 It results from Lenny Renault's research internship at Deezer in 2020.
