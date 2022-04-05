@@ -3,7 +3,7 @@ nickname: dafchar
 firstname: Darius
 lastname: Afchar
 fullname: Darius Afchar
-position: Research Engineer
+position: PhD Student
 picture: darius.jpg
 active: true
 ---
