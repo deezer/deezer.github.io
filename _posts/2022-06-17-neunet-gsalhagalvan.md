@@ -28,4 +28,4 @@ We demonstrate the empirical effectiveness of our approach, referred to as Modul
         alt="Modularity-Aware GAE"/>
 </div>
 
-This paper has been accepted for publication in Elsevier's [Neural Networks](https://www.journals.elsevier.com/neural-networks) journal (impact factor: 8.05).
+This paper has been accepted for publication in Elsevier's [Neural Networks](https://www.journals.elsevier.com/neural-networks) journal (impact factor: 8.05) in 2022.
