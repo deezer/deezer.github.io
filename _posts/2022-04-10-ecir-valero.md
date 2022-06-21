@@ -3,7 +3,7 @@ layout: post
 title: "Topic Modeling on Podcast Short-Text Metadata"
 date: 2022-02-10 10:00:00 +0200
 category: Publication
-author: eepure
+author: mbaranes
 readtime: 5
 people:
  - mbaranes
@@ -11,7 +11,7 @@ people:
 publication_type: conference
 https://github.com/featurespublication_title: "Topic Modeling on Podcast Short-Text Metadata"
 publication_year: 2022
-publication_authors:  Francisco B. Valero, Marion Baranes, and Elena V. Epure
+publication_authors:  F. B. Valero, M. Baranes, E. V. Epure
 publication_conference: ECIR
 publication_preprint: "https://arxiv.org/pdf/2201.04419.pdf"
 publication_code: "https://github.com/deezer/podcast-topic-modeling"

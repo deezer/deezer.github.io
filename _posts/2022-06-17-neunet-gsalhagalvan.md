@@ -11,7 +11,7 @@ people:
 publication_type: journal
 publication_title: "Modularity-Aware Graph Autoencoders for Joint Community Detection and Link Prediction"
 publication_year: 2022
-publication_authors: G. Salha-Galvan, J. Lutzeyer, G. Dasoulas, R. Hennequin, M. Vazirgiannis
+publication_authors: G. Salha-Galvan, J. F. Lutzeyer, G. Dasoulas, R. Hennequin, M. Vazirgiannis
 publication_journal: Neural Networks
 publication_preprint: "https://arxiv.org/pdf/2202.00961.pdf"
 publication_code: "https://github.com/deezer/modularity_aware_gae"

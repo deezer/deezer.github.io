@@ -13,7 +13,7 @@ people:
 publication_type: conference
 publication_title: "Hierarchical Latent Relation Modeling for Collaborative Metric Learning"
 publication_year: 2021
-publication_authors: V.A. Tran, G. Salha-Galvan, R. Hennequin, M. Moussallam
+publication_authors: V-A. Tran, G. Salha-Galvan, R. Hennequin, M. Moussallam
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2108.04655.pdf"
 publication_code: "https://github.com/deezer/recsys21-hlr"

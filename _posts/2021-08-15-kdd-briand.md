@@ -11,7 +11,7 @@ people:
 publication_type: conference
 publication_title: "A Semi-Personalized System for User Cold Start Recommendation on Music Streaming Apps"
 publication_year: 2021
-publication_authors: L. Briand, G. Salha-Galvan, W. Bendada, M. Morlon, V.A. Tran
+publication_authors: L. Briand, G. Salha-Galvan, W. Bendada, M. Morlon, V-A. Tran
 publication_conference: KDD
 publication_preprint: "https://arxiv.org/pdf/2106.03819.pdf"
 publication_code: "https://github.com/deezer/semi_perso_user_cold_start"

@@ -10,8 +10,8 @@ people:
 publication_type: conference
 publication_title: "Many-to-Many Voice Conversion based Feature Disentanglement using Variational Autoencoder"
 publication_year: 2021
-publication_authors: M. Luong, V.A. Tran
-publication_conference: Interspeech
+publication_authors: M. Luong, V-A. Tran
+publication_conference: INTERSPEECH
 publication_preprint: "https://arxiv.org/pdf/2107.06642.pdf"
 publication_code: "https://github.com/v-manhlt3/Disentangle-VAE-for-VC"
 ---

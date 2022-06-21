@@ -12,7 +12,7 @@ people:
 publication_type: conference
 publication_title: "Cold Start Similar Artists Ranking with Gravity-Inspired Graph Autoencoders"
 publication_year: 2021
-publication_authors:  G. Salha-Galvan, R. Hennequin, B. Chapus, V.A. Tran, M. Vazirgiannis
+publication_authors:  G. Salha-Galvan, R. Hennequin, B. Chapus, V-A. Tran, M. Vazirgiannis
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2108.01053.pdf"
 publication_code: "https://github.com/deezer/similar_artists_ranking"
