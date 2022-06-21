@@ -12,7 +12,7 @@ publication_type: conference
 publication_title: "Probing Pre-trained Auto-regressive Language Models for Named Entity Typing and Recognition"
 publication_year: 2022
 publication_authors: E. V. Epure, R. Hennequin
-publication_journal: LREC
+publication_conference: LREC
 publication_preprint: "https://arxiv.org/pdf/2108.11857.pdf"
 publication_code: "https://github.com/deezer/net-ner-probing"
 ---
