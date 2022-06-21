@@ -9,7 +9,7 @@ people:
  - mbaranes
  - eepure
 publication_type: conference
-https://github.com/featurespublication_title: "Topic Modeling on Podcast Short-Text Metadata"
+publication_title: "Topic Modeling on Podcast Short-Text Metadata"
 publication_year: 2022
 publication_authors:  F. B. Valero, M. Baranes, E. V. Epure
 publication_conference: ECIR
