@@ -30,4 +30,4 @@ memory footprint is much smaller than WaveFlow.
 As shown in experiments, FlowVocoder achieves competitive results with
 baseline methods in terms of both subjective and objective evaluation, also, it is more suitable for real-time text-to-speech applications.
 
-This paper has been accepted for publication at the INTERSPEECH 2022 conference.
+This paper has been accepted for publication in the proceedings of the INTERSPEECH 2022 conference.
