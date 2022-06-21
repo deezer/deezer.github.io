@@ -22,4 +22,4 @@ Transformer with a Mixture of Gaussian Keys (Transformer-MGK), a novel transform
 
 We empirically demonstrate the advantage of Transformer-MGK in a range of practical applications, including language modeling and tasks that involve very long sequences. On the Wikitext-103 and Long Range Arena benchmark, Transformer-MGKs with 4 heads attain comparable or better performance to the baseline transformers with 8 heads.
 
-This paper has been accepted for publication at the 39th International Conference on Machine Learning (ICML 2022).
+This paper has been accepted for publication in the proceedings of the 39th International Conference on Machine Learning (ICML 2022).
