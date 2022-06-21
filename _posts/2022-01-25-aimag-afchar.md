@@ -13,7 +13,7 @@ people:
 publication_type: journal
 publication_title: "Explainability in Music Recommender Systems"
 publication_year: 2022
-publication_authors: D. Afchar, A. B Melchiorre, M. Schedl, R. Hennequin, E. V Epure, M. Moussallam
+publication_authors: D. Afchar, A. B. Melchiorre, M. Schedl, R. Hennequin, E. V. Epure, M. Moussallam
 publication_journal: AI Magazine
 publication_preprint: "https://arxiv.org/pdf/2201.10528"
 ---
