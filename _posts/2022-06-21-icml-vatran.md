@@ -10,7 +10,7 @@ people:
 publication_type: conference
 publication_title: "Improving Transformers with Probabilistic Attention Keys"
 publication_year: 2022
-publication_authors: T. Nguyen, T. M. Nguyen, D. D. Le, Du. K. Nguyen, V-A. Tran, R. G. Baraniuk, N. Ho, S. J. Osher 
+publication_authors: T. Nguyen, T. M. Nguyen, D. D. Le, D. K. Nguyen, V-A. Tran, R. G. Baraniuk, N. Ho, S. J. Osher 
 publication_conference: ICML
 publication_preprint: "https://www.researchgate.net/profile/Nhat-Ho-5/publication/355356564_Improving_Transformers_with_Probabilistic_Attention_Keys/links/62a69583a3fe3e3df872f9f7/Improving-Transformers-with-Probabilistic-Attention-Keys.pdf"
 ---
