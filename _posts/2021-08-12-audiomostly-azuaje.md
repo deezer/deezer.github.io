@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Visualyre: Multimodal Visualization of Lyrics"
-date: 2022-02-10 10:00:00 +0200
+date: 2021-08-12 10:00:00 +0200
 category: Publication
 author: eepure
 readtime: 5
