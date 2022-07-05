@@ -1,5 +1,5 @@
 ---
-nickname: bmassonisguera
+nickname: bmassonisguerra
 firstname: Bruno
 lastname: Massoni Sguerra
 fullname: Bruno Massoni Sguerra
