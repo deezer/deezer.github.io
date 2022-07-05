@@ -18,7 +18,7 @@ The music streaming service Deezer extensively relies on its Flow algorithm, whi
 
 In this paper, we present Flow Moods, an improved version of Flow that addresses this limitation. Flow Moods leverages collaborative filtering, audio content analysis, and mood annotations from professional music curators to generate personalized mood-specific playlists at scale.
 
-We detail the motivations, the development, and the deployment of this system on Deezer. Since its release in 2021, Flow Moods has been recommending music by moods to millions~of~users~every~day.
+We detail the motivations, the development, and the deployment of this system on Deezer. Since its release in 2021, Flow Moods has been recommending music by moods to millions of users every day.
 
 <div class="publication-illustration">
     <img
