@@ -5,6 +5,8 @@ date: 2021-09-01 10:00:00 +0200
 category: Publication
 author: mmoussallam
 readtime: 5
+projects:
+ - RECORDS
 people:
  - mmoussallam
 publication_type: conference
