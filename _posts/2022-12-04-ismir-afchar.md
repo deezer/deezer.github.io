@@ -28,12 +28,12 @@ Music signals are difficult to interpret from their low-level features, perhaps 
 
 ... let's say that a given model estimated that the track exhibited a "happy" mood. Now, if we were to use a popular explanation technique -- as <a href="https://arxiv.org/abs/1602.04938">LIME</a> -- in order to understand what makes this track "happy", we would obtain something similar to the following <i>attribution map</i>...
 
-<div class="publication-illustration">
+<div class="publication-illustration" style="flex-direction:column">
     <img
         style="width: 50%;"
         src="{{ '/static/images/publis/afchar22ismir/spec_2.png' | prepend: site.url }}"
         alt="Spectrogram explanation"/>
-    <br><span style="color: #AAA; font-size: 0.8em;">
+    <br><span style="color: #AAA; font-size: 0.6em; width:50%;">
 	These two images of a spectrogram and generated explanation were shamefully stolen from <a href="https://arxiv.org/pdf/1905.11760.pdf"><i>"Two-level Explanations in Music Emotion Recognition"</i> V. Praher et al (2019)</a>.</span>
 </div>
 
