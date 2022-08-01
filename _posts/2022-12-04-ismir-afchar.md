@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning Unsupervised Hierarchies of Audio Concepts"
-date: 2022-12-04 10:00:00 +0100
+date: 2022-08-01 10:00:00 +0100
 category: Publication
 author: dafchar
 readtime: 10
