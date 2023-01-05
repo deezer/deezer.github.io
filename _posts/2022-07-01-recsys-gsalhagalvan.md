@@ -12,6 +12,7 @@ publication_title: "Flow Moods: Recommending Music by Moods on Deezer"
 publication_year: 2022
 publication_authors: T. Bontempelli, B. Chapus, F. Rigaud, M. Morlon, M. Lorant, G. Salha-Galvan
 publication_conference: RecSys
+publication_preprint: https://arxiv.org/pdf/2207.11229.pdf
 ---
 
 The music streaming service Deezer extensively relies on its Flow algorithm, which generates personalized radio-style playlists of songs, to help users discover musical content. Nonetheless, despite promising results over the past years, Flow used to ignore the moods of users when providing recommendations.
@@ -27,4 +28,3 @@ We detail the motivations, the development, and the deployment of this system on
 </div>
 
 This paper has been accepted for publication in the proceedings of the 16th ACM Conference on Recommender Systems (RecSys 2022).
-It will be available online soon.
