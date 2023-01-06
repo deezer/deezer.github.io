@@ -12,7 +12,7 @@ publication_type: conference
 publication_title: "Learning Unsupervised Hierarchies of Audio Concepts"
 publication_year: 2022
 publication_authors: D. Afchar, R. Hennequin, V. Guigue
-publication_journal: ISMIR
+publication_conference: ISMIR
 publication_preprint: "https://arxiv.org/pdf/2207.11231"
 ---
 

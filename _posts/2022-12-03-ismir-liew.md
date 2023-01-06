@@ -12,7 +12,7 @@ publication_type: conference
 publication_title: "Network Analyses for Cross-Cultural Music Popularity"
 publication_year: 2022
 publication_authors: K. Liew, V. Mishra, Y. Zhou, E. V. Epure, R. Hennequin, S. Wakamiya, E. Aramaki
-publication_journal: ISMIR
+publication_conference: ISMIR
 publication_preprint: "https://psyarxiv.com/fp75z/"
 publication_code: "https://osf.io/uyh6d/"
 ---
