@@ -12,7 +12,7 @@ publication_type: conference
 publication_title: "Exploiting Device and Audio Data to Tag Music with User-Aware Listening Contexts"
 publication_year: 2022
 publication_authors: K. M. Ibrahim, E. V. Epure, G. Peeters, G. Richard 
-publication_journal: ISMIR
+publication_conference: ISMIR
 publication_preprint: "https://arxiv.org/pdf/2211.07250.pdf"
 publication_code: "https://github.com/Karimmibrahim/Situational_Session_Generator"
 ---
