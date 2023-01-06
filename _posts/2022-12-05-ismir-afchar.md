@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Learning Unsupervised Hierarchies of Audio Concepts"
-date: 2022-08-01 10:00:00 +0100
+date: 2022-12-05 10:00:00 +0100
 category: Publication
 author: dafchar
 readtime: 10
 people:
  - dafchar
  - rhennequin
-publication_type: journal
+publication_type: conference
 publication_title: "Learning Unsupervised Hierarchies of Audio Concepts"
 publication_year: 2022
 publication_authors: D. Afchar, R. Hennequin, V. Guigue
@@ -52,3 +52,5 @@ In the field of computer vision, <b>concept learning</b> was therein proposed to
 </div>
 
 Some demo results, are available online to play with: <a href="http://research.deezer.com/concept_hierarchy/">research.deezer.com/concept_hierarchy</a>.
+
+This paper has been published in the proceedings of the 23rd International Society for Music Information Retrieval Conference (ISMIR 2022).
