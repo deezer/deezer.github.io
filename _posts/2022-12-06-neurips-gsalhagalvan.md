@@ -14,7 +14,7 @@ publication_year: 2022
 publication_authors: G. Salha-Galvan, J. F. Lutzeyer, G. Dasoulas, R. Hennequin, M. Vazirgiannis
 publication_conference: NeurIPS GLFrontiers
 publication_preprint: "https://arxiv.org/pdf/2211.08972.pdf"
-publication_code: "https://github.com/deezer/modularity_aware_gae"
+publication_code: "https://github.com/GuillaumeSalhaGalvan/modularity_aware_gae"
 ---
 
 
