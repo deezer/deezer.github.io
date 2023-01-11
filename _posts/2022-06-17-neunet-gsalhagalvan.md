@@ -14,7 +14,7 @@ publication_year: 2022
 publication_authors: G. Salha-Galvan, J. F. Lutzeyer, G. Dasoulas, R. Hennequin, M. Vazirgiannis
 publication_journal: Neural Networks
 publication_preprint: "https://arxiv.org/pdf/2202.00961.pdf"
-publication_code: "https://github.com/deezer/modularity_aware_gae"
+publication_code: "https://github.com/GuillaumeSalhaGalvan/modularity_aware_gae"
 ---
 
 Graph autoencoders (GAE) and variational graph autoencoders (VGAE) emerged as powerful methods for link prediction. Their performances are less impressive on community detection problems where, according to recent and concurring experimental evaluations, they are often outperformed by simpler alternatives such as the Louvain method. It is currently still unclear to which extent one can improve community detection with GAE and VGAE, especially in the absence of node features. It is moreover uncertain whether one could do so while simultaneously preserving good performances on link prediction. 
