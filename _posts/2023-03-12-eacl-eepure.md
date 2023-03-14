@@ -13,6 +13,7 @@ publication_title: "A Human Subject Study of Named Entity Recognition (NER) in C
 publication_year: 2023
 publication_authors: E. V. Epure, R. Hennequin
 publication_conference: EACL
+publication_preprint: "https://arxiv.org/pdf/2303.06944.pdf"
 publication_code: "https://github.com/deezer/music-ner-eacl2023"
 ---
 
