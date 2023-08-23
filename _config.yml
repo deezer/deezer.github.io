@@ -41,6 +41,9 @@ team:
   - bmartin
   - csaillard
   - bmassonisguerra
+  - ddesblancs
+  - khayek
+  - gmichel
 
 defaults:
   - scope:
