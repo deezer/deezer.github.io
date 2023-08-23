@@ -6,7 +6,8 @@ category: Publication
 author: mbaranes
 readtime: 5
 people:
- - mbaranes 
+ - mbaranes
+ - khayek
  - rhennequin
  - eepure
 publication_type: conference
