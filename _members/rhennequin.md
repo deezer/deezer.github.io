@@ -3,7 +3,7 @@ nickname: rhennequin
 firstname: Romain
 lastname: Hennequin
 fullname: Romain Hennequin
-position: Lead Research Scientist
+position: Head of Research
 picture: romain.jpg
 active: true
 ---
