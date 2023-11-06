@@ -13,7 +13,7 @@ publication_title: "Data-Efficient Playlist Captioning With Musical and Linguist
 publication_year: 2022
 publication_authors: G. Gabbolini, R. Hennequin, E. V. Epure
 publication_conference: EMNLP
-publication_preprint: "https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.784.pdf"
+publication_preprint: "https://aclanthology.org/2022.emnlp-main.784.pdf"
 publication_code: "https://github.com/deezer/playntell"
 ---
 
