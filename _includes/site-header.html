@@ -1,20 +1,17 @@
 <header class="w-100">
     <nav id="navigation">
         <a id="responsive-menu-brand" href="{{ site.url }}" class="logo">
-            <img src="{{ '/static/images/logo-multi-black.svg' | prepend: site.url }}">
-            <span class="black">
-                Research
-            </span>
+            <img src="{{ '/static/images/logo-mono-black-rebrand.svg' | prepend: site.url }}">
+            <img src="{{ '/static/images/sub-mono-black-rebrand.svg' | prepend: site.url }}">
         </a>
         <a id="menu-brand" href="{{ site.url }}" class="logo">
             {% if page.index %}
-            <img src="{{ '/static/images/logo-mono-white.svg' | prepend: site.url }}">
+            <img src="{{ '/static/images/logo-mono-white-rebrand.svg' | prepend: site.url }}">
+            <img src="{{ '/static/images/sub-mono-white-rebrand.svg' | prepend: site.url }}">
             {% else %}
-            <img src="{{ '/static/images/logo-multi-black.svg' | prepend: site.url }}">
+            <img src="{{ '/static/images/logo-mono-black-rebrand.svg' | prepend: site.url }}">
+            <img src="{{ '/static/images/sub-mono-black-rebrand.svg' | prepend: site.url }}">
             {% endif %}
-            <span class="{% if page.index %}white{% else %}black{% endif %}">
-                Research
-            </span>
         </a>
         <ul id="navlinks">
             <li class="navlink">
