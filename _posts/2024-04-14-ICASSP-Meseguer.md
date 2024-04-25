@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Experimental Comparison of Multi-View Self-Supervised Methods for Music Tagging"
-date: 2024-14-04 10:00:00 +0200
+date: 2024-04-14 10:00:00 +0200
 category: Publication
 author: gmeseguerbrocal
 readtime: 1
