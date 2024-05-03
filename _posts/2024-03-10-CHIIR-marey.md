@@ -16,7 +16,7 @@ publication_year: 2024
 publication_authors: L. Marey, B. Sguerra, M. Moussallam
 publication_conference: CHIIR
 publication_code: "https://github.com/deezer/modeling_activity_pace"
-publication_preprint: "https://dl.acm.org/doi/10.1145/3627508.3638299"
+publication_preprint: "http://arxiv.org/abs/2405.01417"
 ---
 
 While the topic of listening context is widely studied in the literature of music recommender systems, the integration of regular user behavior is often omitted. 
