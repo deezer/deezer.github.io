@@ -50,6 +50,7 @@ team:
   - kmatrosova
   - kakesbi
   - lmarey
+  - lbriand
 
 defaults:
   - scope:
