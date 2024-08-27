@@ -63,7 +63,7 @@ layout: template
                 <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
                 <script type="IN/Share" data-url="{{ page.url | prepend: site.url }}"></script>
             </div>
-            <div class="share-twitter">
+            <!-- <div class="share-twitter">
                 <script>window.twttr = (function (d, s, id) {
                         var js, fjs = d.getElementsByTagName(s)[0],
                             t = window.twttr || {};
@@ -83,6 +83,17 @@ layout: template
                     data-related="researchdeezer,deezer">
                     Tweet
                 </a>
+                
+            </div> -->
+            <div class="share-bsky">
+                <a  href="https://bsky.app/intent/compose?text={{ page.url | prepend: site.url }}" 
+                    target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="/static/images/bluesky_logo_icon.svg" style="height: 15px;"
+                        alt="Bluesky"></a>    
+                    
+                </a>
+                
             </div>
             <div class="share-facebook">
                 <div id="fb-root"></div>
