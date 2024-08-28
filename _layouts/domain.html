@@ -8,7 +8,7 @@ layout: template
         {{ page.description }}
     </div>
     <div class="post-footer">
-        {% assign posts = site.posts | where_exp: "post", "post.domains contains page.name" | sort: "date" %}
+        {% assign posts = site.posts | where_exp: "post", "post.domains contains page.name" |  sort: "date" | reverse  %}
         {% assign n = posts | size %}
         {% if n > 0 %}
         <div class="post-links mb-60">
