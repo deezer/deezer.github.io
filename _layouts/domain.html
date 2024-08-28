@@ -1,0 +1,27 @@
+---
+layout: template
+---
+
+<div id="page-content">
+    {% include domain-header.html domain=page %}
+    <div class="post-content primary-text" itemprop="articleBody">
+        {{ page.description }}
+    </div>
+    <div class="post-footer">
+        {% assign posts = site.posts | where_exp: "post", "post.domains contains page.name" | sort: "date" %}
+        {% assign n = posts | size %}
+        {% if n > 0 %}
+        <div class="post-links mb-60">
+            <h2 class="secondary-header mb-30">Publications</h2>
+            {% for post in posts %}
+            <div class="mb-30">
+            {% include post-header.html 
+                        post=post
+                        link=true
+                        mode="publication" %}
+            </div>
+            {% endfor %}
+            
+        </div>
+        {% endif %}
+    </div>

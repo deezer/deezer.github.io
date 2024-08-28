@@ -8,7 +8,9 @@ readtime: -estimated read time in minutes-
 people:
  - -related people 1-
  - -related people 2-
-
+domains: 
+ - -domain 1-
+ - -domain 2-
 ---
 
 To be documented

@@ -15,6 +15,8 @@ publication_authors: D. Afchar, R. Hennequin, V. Guigue
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2307.01212.pdf"
 publication_code: "https://github.com/deezer/spiky_svd"
+domains: 
+ - RECSYS
 ---
 
 The truncated singular value decomposition is a widely used methodology in music recommendation for direct similar-item retrieval or embedding musical items for downstream tasks.

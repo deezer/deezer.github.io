@@ -32,6 +32,26 @@ layout: template
             </div>
         </div>
         {% endif %}
+        {% if page.domains %}
+        <div class="post-relative-domains">
+            <h2 class="secondary-header mb-30">
+                Filter by Tag
+            </h2>
+            <div class="domains">
+                {% for domain in page.domains %}
+                {% if site.topics contains domain %} 
+                {% assign topic = site.domains | where: 'name', domain | first %}                       
+                <a class="post-domain" 
+                    style="background-color: {{ topic.color_bg }}; color: {{ topic.color_font }};"  
+                    href="{{ topic.name  | prepend: '/domains/' | prepend: site.url }}.html">                    
+                    {{ topic.name }}
+                </a>
+                
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
         <div class="post-links">
             <h2 class="secondary-header mb-30">
                 {% if page.category == 'Publication' %}

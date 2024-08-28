@@ -15,6 +15,8 @@ publication_authors: L. Briand, G. Salha-Galvan, W. Bendada, M. Morlon, V-A. Tra
 publication_conference: KDD
 publication_preprint: "https://arxiv.org/pdf/2106.03819.pdf"
 publication_code: "https://github.com/deezer/semi_perso_user_cold_start"
+domains: 
+ - RECSYS
 ---
 
 Music streaming services heavily rely on recommender systems to

@@ -16,6 +16,9 @@ publication_year: 2019
 publication_authors: L. Pretet, R. Hennequin, J. Royo-Letelier, A. Vaglio
 publication_conference: ICASSP
 publication_preprint: "https://arxiv.org/pdf/1906.02618.pdf"
+domains: 
+ - Datasets
+ - MIR
 ---
 
 In the recent years, singing voice separation systems

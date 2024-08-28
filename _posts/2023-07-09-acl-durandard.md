@@ -16,6 +16,8 @@ publication_authors: N. Durandard, V-A. Tran, G. Michel, E. V. Epure
 publication_conference: ACL
 publication_preprint: "https://arxiv.org/pdf/2306.15634.pdf"
 publication_code: "https://github.com/deezer/aads_french"
+domains: 
+ - NLP
 ---
 
 The automatic annotation of direct speech (AADS) in written text has been often used in computational narrative understanding. 

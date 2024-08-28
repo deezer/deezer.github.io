@@ -17,6 +17,8 @@ publication_authors: V-A. Tran, G. Salha-Galvan, R. Hennequin, M. Moussallam
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2108.04655.pdf"
 publication_code: "https://github.com/deezer/recsys21-hlr"
+domains: 
+ - RECSYS
 ---
 
 Collaborative Metric Learning (CML) recently emerged as a powerful paradigm for recommendation based on implicit feedback

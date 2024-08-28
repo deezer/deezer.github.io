@@ -15,6 +15,9 @@ publication_authors: E. V. Epure, R. Hennequin
 publication_conference: EACL
 publication_preprint: "https://arxiv.org/pdf/2303.06944.pdf"
 publication_code: "https://github.com/deezer/music-ner-eacl2023"
+domains: 
+ - RECSYS
+ - NLP
 ---
 
 We conducted a human subject study of named entity recognition on a noisy corpus of conversational music recommendation queries, with many irregular and novel named entities.

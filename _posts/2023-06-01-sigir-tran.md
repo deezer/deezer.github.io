@@ -17,6 +17,8 @@ publication_authors: V-A. Tran, G. Salha-Galvan, B. Sguerra, R. Hennequin
 publication_conference: SIGIR
 publication_preprint: "https://arxiv.org/pdf/2304.08158.pdf"
 publication_code: "https://github.com/deezer/sigir23-mojito"
+domains: 
+ - RECSYS
 ---
 
 Transformers emerged as powerful methods for sequential recommendation. However, existing architectures often overlook the complex dependencies between user preferences and the temporal context.

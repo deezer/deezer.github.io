@@ -15,6 +15,8 @@ publication_authors:  F. B. Valero, M. Baranes, E. V. Epure
 publication_conference: ECIR
 publication_preprint: "https://arxiv.org/pdf/2201.04419.pdf"
 publication_code: "https://github.com/deezer/podcast-topic-modeling"
+domains: 
+ - NLP
 ---
 
 Podcasts have emerged as a massively consumed online content, notably due to wider accessibility of production means and scaled distribution through large streaming platforms. Categorization systems and information access technologies typically use topics as the primary way to organize or navigate podcast collections.

@@ -18,6 +18,8 @@ publication_authors: J. Royo-Letelier, R. Hennequin, V-A. Tran, M. Moussallam
 publication_conference: ISMIR
 publication_preprint: "http://ismir2018.ircam.fr/doc/pdfs/211_Paper.pdf"
 publication_code: "https://github.com/deezer/Disambiguating-Music-Artists-at-Scale-with-Audio-Metric-Learning"
+domains: 
+ - MIR
 ---
 
 In large music catalogs, artist ambiguities such as different artists sharing the same name or one artist with several distinct names are commonplace. Metadata may not always be sufficient to resolve these ambiguities, especially for small artists with few of them.

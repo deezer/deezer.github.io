@@ -15,6 +15,8 @@ publication_authors: G. Gabbolini, R. Hennequin, E. V. Epure
 publication_conference: EMNLP
 publication_preprint: "https://aclanthology.org/2022.emnlp-main.784.pdf"
 publication_code: "https://github.com/deezer/playntell"
+domains: 
+ - NLP
 ---
 
 

@@ -15,6 +15,8 @@ publication_authors: E. V. Epure, R. Hennequin
 publication_conference: LREC
 publication_preprint: "https://arxiv.org/pdf/2108.11857.pdf"
 publication_code: "https://github.com/deezer/net-ner-probing"
+domains: 
+ - NLP
 ---
 
 Multiple works have proposed to probe language models (LMs) for generalization in named entity (NE) typing (NET) and recognition

@@ -14,6 +14,8 @@ publication_authors: W. Bendada, G. Salha-Galvan, T. Bouabça, T. Cazenave
 publication_conference: SIGIR
 publication_preprint: "https://arxiv.org/pdf/2304.09061.pdf"
 publication_code: "https://github.com/deezer/APC-RTA"
+domains: 
+ - RECSYS
 ---
 
 Music streaming services often aim to recommend songs for users to extend the playlists they have created on these services. However, extending playlists while preserving their musical characteristics and matching user preferences remains a challenging task, commonly referred to as Automatic Playlist Continuation (APC). Besides, while these services often need to select the best songs to recommend in real-time and among large catalogs with millions of candidates, recent research on APC mainly focused on models with few scalability guarantees and evaluated on relatively small datasets. 

@@ -15,6 +15,8 @@ publication_authors: K. Liew, V. Mishra, Y. Zhou, E. V. Epure, R. Hennequin, S. 
 publication_conference: ISMIR
 publication_preprint: "https://psyarxiv.com/fp75z/"
 publication_code: "https://osf.io/uyh6d/"
+domains: 
+ - MIR
 ---
 
 Anglo-American popular culture has been said to be intricately connected to global popular culture, both shaping and being shaped by popular trends worldwide, yet few research has examined this issue empirically. Our research quantitatively maps the extent of these cultural influences in popular music consumption, by using network analyses to explore cross-cultural popularity in music from 30 countries corresponding to 6 cultural regions (N = 4863 unique songs over six timepoints from 2019-2021). 

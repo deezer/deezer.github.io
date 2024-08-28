@@ -19,6 +19,9 @@ publication_authors: E. V. Epure, G. Salha-Galvan, R. Hennequin
 publication_conference: ISMIR
 publication_preprint: https://arxiv.org/pdf/2009.07755.pdf
 publication_code: https://github.com/deezer/MultilingualMusicGenreEmbedding
+domains: 
+ - MIR
+ - NLP
 ---
 
 Annotating music items with music genres is crucial for music recommendation and information retrieval, yet challenging given that music genres are subjective concepts.

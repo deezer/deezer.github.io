@@ -17,6 +17,8 @@ publication_authors: B. Sguerra, M. Baranes, R. Hennequin, M. Moussallam
 publication_conference: UMAP
 publication_preprint: "https://dl.acm.org/doi/pdf/10.1145/3503252.3531308"
 publication_code: "https://github.com/deezer/Search-Intent-Exploration"
+domains: 
+ - RECSYS
 ---
 
 

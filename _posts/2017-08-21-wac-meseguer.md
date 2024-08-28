@@ -8,6 +8,7 @@ readtime: 6
 people:
  - rhennequin
  - mmoussallam
+ - gmeseguer
 projects:
  - WASABI
 publication_type: conference
@@ -16,6 +17,8 @@ publication_year: 2017
 publication_authors: G. Meseguer-Brocal, G. Peeters, G. Pellerin, M. Buffa, E. Cabrio, C. Faron Zucker, A. Giboin, I. Mirbel, R. Hennequin, M. Moussallam, F. Piccoli, T. Fillon
 publication_conference: WAC
 publication_preprint: "https://hal.univ-cotedazur.fr/hal-01589250/document"
+domains: 
+ - Datasets
 ---
 
 This paper presents the WASABI project, started in 2017, which aims at (1) the construction of a 2 million song knowledge base that combines metadata collected from music databases on the Web, metadata resulting from the analysis of song lyrics, and metadata resulting from the audio analysis, and (2) the development of semantic applications with high added value to exploit this semantic database.

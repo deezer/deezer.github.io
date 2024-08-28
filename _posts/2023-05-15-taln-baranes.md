@@ -17,6 +17,8 @@ publication_authors: M. Baranes, K. Hayek, R. Hennequin, E. V. Epure
 publication_conference: TALN
 publication_preprint: "https://coria-taln-2023.sciencesconf.org/459693/document"
 publication_code: "https://github.com/deezer/pauzee_taln23"
+domains: 
+ - NLP
 ---
 
 Silent pauses play a crucial role in text-to-speech synthesis, where they help make the text reading

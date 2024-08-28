@@ -18,6 +18,8 @@ publication_year: 2020
 publication_authors: A. Vaglio, R. Hennequin, M. Moussallam, G. Richard, F. d’Alché-Buc
 publication_conference: ISMIR
 publication_preprint: https://program.ismir2020.net/poster_4-06.html
+domains: 
+ - MIR
 ---
 
 Lyrics-to-audio alignment methods have recently reported impressive results, opening the door to practical applications such as karaoke and within song navigation.  However, most studies focus on a single language - usually English - for which annotated data are abundant.  The question  of  their  ability  to  generalize  to  other  languages,  especially in low (or even zero) training resource scenarios has been so far left unexplored.

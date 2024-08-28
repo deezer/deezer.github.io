@@ -15,6 +15,8 @@ publication_year: 2021
 publication_authors:  A. Vaglio, R. Hennequin, M. Moussallam, G. Richard
 publication_conference: ISMIR
 publication_preprint: "https://archives.ismir.net/ismir2021/paper/000089.pdf"
+domains: 
+ - MIR
 ---
 In this paper, we present a novel cover detection approach leveraging lyrics information extracted from audio. We use as Singing Voice Recognition system to extract automatically a lyrics transcripts from the audio and Cover detection is then framed as a noisy text-matching task between obtained transcripts.
 

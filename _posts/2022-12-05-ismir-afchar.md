@@ -14,6 +14,8 @@ publication_year: 2022
 publication_authors: D. Afchar, R. Hennequin, V. Guigue
 publication_conference: ISMIR
 publication_preprint: "https://arxiv.org/pdf/2207.11231"
+domains: 
+ - MIR
 ---
 
 Music signals are difficult to interpret from their low-level features, perhaps even more than images. For instance, highlighting part of a spectrogram or an image is often insufficient to convey high-level ideas that are genuinely relevant to humans. In the following example of a spectrogram...

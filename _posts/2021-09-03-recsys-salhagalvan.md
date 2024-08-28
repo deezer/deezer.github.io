@@ -16,6 +16,8 @@ publication_authors:  G. Salha-Galvan, R. Hennequin, B. Chapus, V-A. Tran, M. Va
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2108.01053.pdf"
 publication_code: "https://github.com/deezer/similar_artists_ranking"
+domains: 
+ - RECSYS
 ---
 
 On an artist’s profile page, music streaming services frequently recommend a ranked list of "similar artists" that fans also liked.
