@@ -38,9 +38,9 @@ layout: template
                 Filter by Tag
             </h2>
             <div class="domains">
-                {% for domain in page.domains %}
-                {% if site.topics contains domain %} 
-                {% assign topic = site.domains | where: 'name', domain | first %}                       
+                {% for domain in page.domains %}                
+                {% assign topic = site.domains | where: 'name', domain | first %} 
+                {% if topic %}                     
                 <a class="post-domain" 
                     style="background-color: {{ topic.color_bg }}; color: {{ topic.color_font }};"  
                     href="{{ topic.name  | prepend: '/domains/' | prepend: site.url }}.html">                    
