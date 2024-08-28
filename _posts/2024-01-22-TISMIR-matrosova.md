@@ -1,5 +1,5 @@
 ---
-layout: publication
+layout: post
 title: Depict or Discern? Fingerprinting Musical Taste from Explicit Preferences
 date: 2024-01-22 00:00:00 +0200
 category: Publication
