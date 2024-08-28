@@ -17,6 +17,8 @@ publication_year: 2020
 publication_authors: J. Choi, A. Khlif, E. V. Epure
 publication_conference: ISMIR NLP4MusA
 publication_preprint: https://drive.google.com/file/d/1ZUhIrm-XxDOPGTUoGbvuRbSx6nq7i-0Y/view
+domains: 
+ - MIR
 ---
 
 In this work, we set up a novel task of <i>playlist context prediction</i>. From a large playlist title corpus, we manually curate a subset of multilingual labels referring to user activities (e.g. <i>"jogging"</i>, <i>"meditation"</i>, <i>"au calme"</i>), which we further consider in the prediction task. 

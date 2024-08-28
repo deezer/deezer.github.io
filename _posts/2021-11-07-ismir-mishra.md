@@ -16,6 +16,8 @@ publication_authors: V. Mishra, K. Liew, R. Hennequin, E. V. Epure, E. Aramaki
 publication_conference: ISMIR NLP4MusA
 publication_preprint: "https://aclanthology.org/2021.nlp4musa-1.7.pdf"
 publication_code: "https://github.com/nlp4musa-emotional-language/fan-community-emotion"
+domains: 
+ - MIR
 ---
 
 Music forms a big part of our identity and

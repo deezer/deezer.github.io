@@ -15,6 +15,8 @@ publication_year: 2020
 publication_authors: A. Vaglio, R. Hennequin, M. Moussallam, G. Richard, F. d'Alché-Buc
 publication_conference: ICASSP
 publication_preprint: https://ieeexplore.ieee.org/document/9054278
+domains: 
+ - MIR
 ---
 
 We present a novel automatic system for performing explicit content detection directly

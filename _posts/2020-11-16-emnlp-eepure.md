@@ -17,6 +17,8 @@ publication_authors: E. V. Epure, G. Salha-Galvan, M. Moussallam, R. Hennequin
 publication_conference: EMNLP
 publication_code: "https://github.com/deezer/CrossCulturalMusicGenrePerception"
 publication_preprint: "https://arxiv.org/pdf/2010.06325.pdf"
+domains: 
+ - NLP
 ---
 
 The music genre perception expressed through human annotations of artists or albums varies significantly across language-bound cultures.

@@ -15,6 +15,8 @@ publication_authors: L. Briand, T. Bontempelli, W. Bendada, M. Morlon, F. Rigaud
 publication_conference: ECIR
 publication_preprint: "https://arxiv.org/pdf/2401.02827"
 publication_code: "https://github.com/deezer/new-releases-ecir2024"
+domains: 
+ - RECSYS
 ---
 
 Music artists release hundreds of thousands of new albums every week on the music streaming service Deezer. The prompt integration of this content, along with its swift discoverability through recommender systems and search engines, holds significant importance. For Deezer, it ensures that users have immediate access to the latest music of their favorite artists while also easily coming upon new ones they might like, which is known to improve the user experience. The proper exposure of new releases also benefits artists by amplifying their visibility, which can contribute to their success, boost their revenues, and foster the emergence of new talents. Nonetheless, displaying the right releases to the right users remains challenging due to the limited prior information on this fresh content, especially for new artists unknown from the service.

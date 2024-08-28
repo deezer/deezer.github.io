@@ -17,6 +17,8 @@ publication_title: "Audio-Based Auto-Tagging with Contextual Tags for Music"
 publication_year: 2020
 publication_authors: K. Ibrahim, J. Royo-Letelier, E. V. Epure, G. Peeters, G. Richard
 publication_conference: ICASSP
+domains: 
+ - MIR
 ---
 
 Music listening context such as location or activity has been shown to greatly influence the

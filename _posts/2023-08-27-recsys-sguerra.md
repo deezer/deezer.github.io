@@ -14,6 +14,8 @@ publication_title: "Ex2Vec: Characterizing Users and Items from the Mere Exposur
 publication_year: 2023
 publication_authors: B. Sguerra, V-A. Tran, R. Hennequin
 publication_conference: RecSys
+domains: 
+ - RECSYS
 ---
 
 The traditional recommendation framework seeks to connect user and content, by finding the best match possible based on users past

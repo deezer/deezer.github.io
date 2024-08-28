@@ -17,6 +17,8 @@ publication_authors: A. Correya, M. Arcos, R. Hennequin
 publication_conference: ISMIR Late-Breaking Demo
 publication_code: "https://github.com/deezer/cover_song_detection"
 publication_preprint: "https://arxiv.org/pdf/1808.10351.pdf"
+domains: 
+ - MIR
 ---
 
 Cover song detection has been mainly addressed using

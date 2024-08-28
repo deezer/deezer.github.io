@@ -15,6 +15,8 @@ publication_authors: W. Bendada, G. Salha-Galvan, R. Hennequin, T. Bouabça, T. 
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2308.12767.pdf"
 publication_code: "https://github.com/deezer/consistency"
+domains: 
+ - RECSYS
 ---
 
 

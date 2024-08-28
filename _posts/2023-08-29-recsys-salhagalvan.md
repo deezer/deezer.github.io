@@ -13,6 +13,8 @@ publication_year: 2023
 publication_authors: W. Bendada, T. Bontempelli, M. Morlon, B. Chapus, T. Cador, T. Bouabça, G. Salha-Galvan
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2307.03045.pdf"
+domains: 
+ - RECSYS
 ---
 
 This paper introduces Track Mix, a personalized playlist generation system released in 2022 on the music streaming service Deezer. 

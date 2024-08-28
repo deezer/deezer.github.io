@@ -13,6 +13,8 @@ publication_year: 2022
 publication_authors: T. Bontempelli, B. Chapus, F. Rigaud, M. Morlon, M. Lorant, G. Salha-Galvan
 publication_conference: RecSys
 publication_preprint: https://arxiv.org/pdf/2207.11229.pdf
+domains: 
+ - RECSYS
 ---
 
 The music streaming service Deezer extensively relies on its Flow algorithm, which generates personalized radio-style playlists of songs, to help users discover musical content. Nonetheless, despite promising results over the past years, Flow used to ignore the moods of users when providing recommendations.

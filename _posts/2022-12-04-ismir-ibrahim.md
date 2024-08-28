@@ -15,6 +15,8 @@ publication_authors: K. M. Ibrahim, E. V. Epure, G. Peeters, G. Richard
 publication_conference: ISMIR
 publication_preprint: "https://arxiv.org/pdf/2211.07250.pdf"
 publication_code: "https://github.com/Karimmibrahim/Situational_Session_Generator"
+domains: 
+ - MIR
 ---
 
 As music has become more available especially on music streaming platforms, people have started to have distinct preferences to fit to their varying listening situations, also known as context. Hence, there has been a growing interest in considering the user's situation when recommending music to users. Previous works have proposed user-aware autotaggers to infer situation-related tags from music content and user's global listening preferences. However, in a practical music retrieval system, the autotagger could be only used by assuming that the context class is explicitly provided by the user. 

@@ -19,6 +19,8 @@ publication_year: 2020
 publication_authors: K. Ibrahim, E. V. Epure, G. Peeters, G. Richard
 publication_conference: ISMIR
 publication_preprint: https://program.ismir2020.net/poster_2-17.html
+domains: 
+ - MIR
 ---
 
 Music tags are commonly used to describe and categorize music. Various auto-tagging models and datasets have been proposed for the automatic music annotation with tags. However, the past approaches often neglect the fact that many of these tags largely depend on the user, especially the tags related to the context of music listening.

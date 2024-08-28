@@ -16,6 +16,8 @@ publication_year: 2022
 publication_authors: D. Afchar, A. B. Melchiorre, M. Schedl, R. Hennequin, E. V. Epure, M. Moussallam
 publication_journal: AI Magazine
 publication_preprint: "https://arxiv.org/pdf/2201.10528"
+domains: 
+ - RECSYS
 ---
 
 The most common way to listen to recorded music nowadays is via streaming platforms which provide access to tens of millions of tracks.

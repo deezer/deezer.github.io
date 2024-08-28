@@ -5,6 +5,8 @@ date: 2024-04-14 10:00:00 +0200
 category: Publication
 author: gmeseguerbrocal
 readtime: 1
+domains: 
+ - MIR
 people:
  - gmeseguerbrocal
  - ddesblancs

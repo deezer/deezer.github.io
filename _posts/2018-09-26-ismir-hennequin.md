@@ -17,6 +17,8 @@ publication_authors: R. Hennequin, J. Royo-Letelier, M. Moussallam
 publication_conference: ISMIR
 publication_preprint: "https://arxiv.org/pdf/1809.07256.pdf"
 publication_code: "https://github.com/deezer/audio_based_disambiguation_of_music_genre_tags"
+domains: 
+ - MIR
 ---
 
 In this paper, we propose to infer music genre embeddings

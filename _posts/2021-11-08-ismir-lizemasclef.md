@@ -14,6 +14,8 @@ publication_year: 2021
 publication_authors:  N. Lizé-Masclef, A. Vaglio, M. Moussallam
 publication_conference: ISMIR
 publication_preprint: "https://archives.ismir.net/ismir2021/paper/000052.pdf"
+domains: 
+ - MIR
 ---
 
 The growing interest for Human-centered MIR motivates the development of perceptually-grounded evaluation metrics. Despite remarkable progress of lyrics-to-audio alignment systems in recent years, one thing remaining unresolved is whether the metrics employed to assess their performance are perceptually grounded. 

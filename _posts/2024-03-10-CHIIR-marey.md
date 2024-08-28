@@ -5,6 +5,8 @@ date: 2024-03-10 13:13:13 +0200
 category: Publication
 readtime: 6
 author: lmarey
+projects:
+ - RECORDS
 people:
  - lmarey
  - bmassonisguerra
@@ -17,6 +19,8 @@ publication_authors: L. Marey, B. Sguerra, M. Moussallam
 publication_conference: CHIIR
 publication_code: "https://github.com/deezer/modeling_activity_pace"
 publication_preprint: "http://arxiv.org/abs/2405.01417"
+domains: 
+ - RECSYS
 ---
 
 While the topic of listening context is widely studied in the literature of music recommender systems, the integration of regular user behavior is often omitted. 

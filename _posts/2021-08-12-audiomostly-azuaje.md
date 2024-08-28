@@ -13,6 +13,8 @@ publication_year: 2021
 publication_authors:  G. Azuaje, K. Liew, E. V. Epure, S. Yada, S. Wakamiya, E. Aramaki
 publication_conference: Audio Mostly
 publication_preprint: "https://dl.acm.org/doi/pdf/10.1145/3478384.3478420"
+domains: 
+ - MIR
 ---
 
 In this paper, we present Visualyre, a web application that synthesizes images based on the semantics of the lyrics, and the mood of the music. 

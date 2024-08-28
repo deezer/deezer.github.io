@@ -15,6 +15,8 @@ publication_year: 2021
 publication_authors: Q. Villermet, J. Poiroux, M. Moussallam, T. Louail, C. Roth
 publication_conference: RecSys
 publication_preprint: "https://arxiv.org/pdf/2109.03915.pdf"
+domains: 
+ - RECSYS
 ---
 
 The role of recommendation devices of music streaming platforms on content consumption and user tastes is at the heart of an active

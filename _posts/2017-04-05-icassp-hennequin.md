@@ -5,6 +5,7 @@ date: 2017-04-05 15:44:41 +0200
 category: Publication
 readtime: 6
 author: rhennequin
+tags: ["MIR"]
 people:
  - rhennequin
  - royo-letelier

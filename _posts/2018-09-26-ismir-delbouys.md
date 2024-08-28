@@ -18,6 +18,8 @@ publication_authors: R. Delbouys, R. Hennequin, F. Piccoli, J. Royo-Letelier, M.
 publication_conference: ISMIR
 publication_preprint: "https://arxiv.org/pdf/1809.07276.pdf"
 publication_code: "https://github.com/deezer/deezer_mood_detection_dataset"
+domains: 
+ - MIR
 ---
 
 In this paper, we consider the task of multimodal music mood prediction based on the audio signal and the lyrics of a track.
