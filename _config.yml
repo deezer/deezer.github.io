@@ -23,6 +23,8 @@ collections:
     output: True
   members:
     output: True
+  domains:
+    output: True
 
 team:
   - eepure
@@ -52,6 +54,10 @@ team:
   - lmarey
   - lbriand
 
+topics:
+  - MIR
+  - NLP
+
 defaults:
   - scope:
       path: ""
@@ -68,6 +74,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "domains"
+    values:
+      layout: "domain"
   - scope:
       path: ""
     values:
