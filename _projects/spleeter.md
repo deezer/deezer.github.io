@@ -6,11 +6,13 @@ description: |
     with pretrained models written in <a href="https://www.python.org">Python</a> and using
     <a href="https://www.tensorflow.org">Tensorflow</a>. It makes it easy to train music source
     separation models (assuming you have a dataset of isolated sources), and provides already
-    trained state of the art models for performing various flavours of separation.
+    trained state of the art models for performing various flavours of separation. Solution for professional using spleeter models are presented on the <a href="https://www.deezer-techservices.com/solutions/spleeter/">Deezer Tech Services website</a>
 website: https://github.com/deezer/spleeter
 partners:
     - label: Deezer Blog
       url: https://deezer.io/releasing-spleeter-deezer-r-d-source-separation-engine-2b88985e797e
+    - label: Tech Services
+      url: https://www.deezer-techservices.com/solutions/spleeter/
 ---
 <div class="publication-illustration">
     <img
