@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "STONE: Self-supervised Tonality Estimator"
-date: 2024-11-08 10:00:00 +0200
+date: 2024-09-25 10:00:00 +0200
 category: Publication
 author: ykong
 readtime: 1
