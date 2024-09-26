@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Real to Cloned Singer Identification"
-date: 2024-11-08 10:00:00 +0200
+date: 2024-09-25 10:00:00 +0200
 category: Publication
 author: ddesblancs
 readtime: 1
