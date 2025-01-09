@@ -35,4 +35,4 @@ In this paper, we present Text2Playlist, illustrated in the Figure below, a pers
         alt="Text2Playlist: Generating Personalized Playlists from Text on Deezer"/>
 </div>
 
-This paper has been accepted for publication in the proceedings of the 46th European Conference on Information Retrieval (ECIR 2025) at the Industry Day.
+This paper has been accepted for publication in the proceedings of the 47th European Conference on Information Retrieval (ECIR 2025) at the Industry Day.
