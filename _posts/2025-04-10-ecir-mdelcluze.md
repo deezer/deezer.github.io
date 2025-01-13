@@ -17,8 +17,8 @@ publication_year: 2025
 publication_authors: M. Delcluze, A. Khoury, C. Vast, V. Arnaudo,
 L. Briand, W. Bendada, T. Bouabça
 publication_conference: ECIR
-publication_preprint: 
-publication_code: 
+publication_preprint: "https://arxiv.org/pdf/2501.05894"
+publication_code: "https://github.com/deezer/new-releases-ecir2024"
 domains: 
  - RECSYS
 ---
@@ -31,7 +31,7 @@ In this paper, we present Text2Playlist, illustrated in the Figure below, a pers
 <div class="publication-illustration">
     <img
         style="width: 70%;"
-        src="{{ '/static/images/publis/delcluze25ecir/carousel.png' | prepend: site.url }}"
+        src="{{ '/static/images/publis/delcluze25ecir/generativeAIproto.png' | prepend: site.url }}"
         alt="Text2Playlist: Generating Personalized Playlists from Text on Deezer"/>
 </div>
 
