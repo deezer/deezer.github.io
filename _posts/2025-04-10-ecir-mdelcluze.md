@@ -18,7 +18,7 @@ publication_authors: M. Delcluze, A. Khoury, C. Vast, V. Arnaudo,
 L. Briand, W. Bendada, T. Bouabça
 publication_conference: ECIR
 publication_preprint: "https://arxiv.org/pdf/2501.05894"
-publication_code: "https://github.com/deezer/new-releases-ecir2024"
+publication_code: "https://github.com/deezer/text2playlist-ecir2025"
 domains: 
  - RECSYS
 ---
