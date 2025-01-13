@@ -4,6 +4,6 @@ firstname: Mathieu
 lastname: Delcluze
 fullname: Mathieu Delcluze
 position: Data Scientist
-picture: 
+picture: mathieu.jpg
 active: true
 ---
