@@ -53,6 +53,7 @@ team:
   - kakesbi
   - lmarey
   - lbriand
+  - gcortes
 
 defaults:
   - scope:
