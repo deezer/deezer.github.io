@@ -35,6 +35,6 @@ plied by Deezer (a leading music streaming company), is also released with the c
 <div class="publication-illustration">
     <img
         style="width: 95%;"
-        src="{{ '/static/images/publis/marey25umap/pathlets.png' | prepend: site.url }}"
+        src="{{ '/static/images/publis/marey25umap/pathlets.jpg' | prepend: site.url }}"
         alt="Overview of the methodology."/>
 </div>
