@@ -9,7 +9,6 @@ people:
  - lmarey
  - bmassonisguerra
  - mmoussallam
-
 publication_type: conference
 publication_title: "Modeling Musical Genre Trajectories through Pathlet Learning"
 publication_year: 2025
@@ -17,7 +16,6 @@ publication_authors: L. Marey, C. Laclau, B. Sguerra, T. Viard, M. Moussallam
 publication_conference: EXUM: Adjunct to UMAP
 publication_code: "https://github.com/lilianmarey/music_pathlets"
 publication_preprint: "https://telecom-paris.hal.science/hal-05120696/"
-
 domains: 
  - RECSYS
 ---
