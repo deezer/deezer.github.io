@@ -36,7 +36,7 @@ As we collect more interactions for a given pair, the prior distribution gets up
 
 <div class="publication-illustration">
     <img
-        style="width: 95%;"
+        style="width: 80%;"
         src="{{ '/static/images/publis/sguerra25umap/uncertainty1.jpg' | prepend: site.url }}"
         alt="Overview of the methodology."/>
 </div>
@@ -45,7 +45,7 @@ Practically, we split the space into discrete play count x time interval bins, e
 
 <div class="publication-illustration">
     <img
-        style="width: 95%;"
+        style="width: 80%;"
         src="{{ '/static/images/publis/sguerra25umap/uncertainty2.jpg' | prepend: site.url }}"
         alt="Overview of the methodology."/>
 </div>
@@ -54,7 +54,7 @@ The results are intuitive. For example a user replaying a track for the ninth ti
 
 <div class="publication-illustration">
     <img
-        style="width: 95%;"
+        style="width: 80%;"
         src="{{ '/static/images/publis/sguerra25umap/uncertainty3.jpg' | prepend: site.url }}"
         alt="Overview of the methodology."/>
 </div>
