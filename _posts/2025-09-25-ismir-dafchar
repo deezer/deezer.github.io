@@ -1,0 +1,24 @@
+---
+layout: post
+title: "A Fourier Explanation of AI-music Artifacts"
+date: 2025-09-25 18:00:00 +0200
+category: Publication
+author: dafchar
+readtime: 1
+domains: 
+ - MIR
+people:
+ - dafchar
+ - gmeseguerbrocal
+ - kakesbi
+ - rhennequin
+publication_type: conference
+publication_title: "A Fourier Explanation of AI-music Artifacts"
+publication_year: 2025
+publication_authors: Darius Afchar, Gabriel Meseguer-Brocal, Kamil Akesbi, Romain Hennequin
+publication_conference: ISMIR
+publication_code: "https://github.com/deezer/ismir25-ai-music-detector"
+publication_preprint: "https://arxiv.org/abs/2506.19108"
+---
+
+The rapid rise of generative AI has transformed music creation, with millions of users engaging in AI-generated music. Despite its popularity, concerns regarding copyright infringement, job displacement, and ethical implications have led to growing scrutiny and legal challenges. In parallel, AI-detection services have emerged, yet these systems remain largely opaque and privately controlled, mirroring the very issues they aim to address. This paper explores the fundamental properties of synthetic content and how it can be detected. Specifically, we analyze deconvolution modules commonly used in generative models and mathematically prove that their outputs exhibit systematic frequency artifacts -- manifesting as small yet distinctive spectral peaks. This phenomenon, related to the well-known checkerboard artifact, is shown to be inherent to a chosen model architecture rather than a consequence of training data or model weights. We validate our theoretical findings through extensive experiments on open-source models, as well as commercial AI-music generators such as Suno and Udio. We use these insights to propose a simple and interpretable detection criterion for AI-generated music. Despite its simplicity, our method achieves detection accuracy on par with deep learning-based approaches, surpassing 99% accuracy on several scenarios.
