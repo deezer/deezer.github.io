@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multi-Class-Token Transformer for Multitask Self-supervised Music Information Retrieval"
-date: 2025-10-12 18:00:00 +0200
+date: 2025-06-22 18:00:00 +0200
 category: Publication
 author: ykong
 readtime: 1
