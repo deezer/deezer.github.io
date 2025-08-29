@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Emergent musical properties of a transformer under contrastive self-supervised learning"
-date: 2025-09-25 18:00:00 +0200
+date: 2025-06-22 18:00:00 +0200
 category: Publication
 author: ykong
 readtime: 1
