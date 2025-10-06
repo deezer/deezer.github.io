@@ -28,9 +28,6 @@ On music streaming services, listening sessions are often composed of a balance 
 <div class="publication-illustration">
     <img
         style="width: 80%;"
-        src="{{ '/static/images/publis/tran2025recsys/reacta_architecture.jpg' | prepend: site.url }}"
+        src="{{ '/static/images/publis/tran25recsys/reacta_architecture.jpg' | prepend: site.url }}"
         alt="Overview of the methodology."/>
 </div>
-
-
-
