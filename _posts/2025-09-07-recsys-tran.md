@@ -8,13 +8,13 @@ title: "'Beyond the past': Leveraging Audio and Human Memory for Sequential Musi
 date: 2025-09-07 16:00:00 +0200
 category: Publication
 author: vatran
-readtime: 5
+readtime: 1
 people:
  - vatran
  - bmassonisguerra
  - gmeseguerbrocal
  - lbriand
- - manuel.moussallam
+ - mmoussallam
 publication_type: conference
 publication_title: "'Beyond the past': Leveraging Audio and Human Memory for Sequential Music Recommendation"
 publication_year: 2025
