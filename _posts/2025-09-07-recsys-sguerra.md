@@ -25,7 +25,7 @@ We explore a novel use case for Large Language Models (LLMs) in recommendation: 
 
 <div class="publication-illustration">
     <img
-        style="width: 80%;"
+        style="width: 60%;"
         src="{{ '/static/images/publis/sguerra25recsys/overview_LLM_bias.jpg' | prepend: site.url }}"
         alt="Overview of the methodology."/>
 </div>
@@ -38,4 +38,3 @@ To study this, we generate profiles using three different LLMs and evaluate them
         src="{{ '/static/images/publis/sguerra25recsys/item_coeff_CR.jpg' | prepend: site.url }}"
         alt="Overview of the methodology."/>
 </div>
-
