@@ -1,7 +1,11 @@
 ---
 layout: post
+tags:
+  - recsys
+  - ACTR
+  - multimodal
 title: "'Beyond the past': Leveraging Audio and Human Memory for Sequential Music Recommendation"
-date: 2025-10-06 16:00:00 +0200
+date: 2025-09-07 16:00:00 +0200
 category: Publication
 author: vatran
 readtime: 5
