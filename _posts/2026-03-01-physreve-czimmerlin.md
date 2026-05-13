@@ -1,20 +1,19 @@
 ---
 layout: post
 title: "Dynamics of discovery and the Heaps-Zipf relationship"
-date: 2020-04-22 18:00:00 +0200
+date: 2026-04-22 18:00:00 +0200
 category: Publication
 author: czimmerlin
 readtime: 1
 domains: 
- - MIR
 people:
  - czimmerlin
  - mmoussallam
 projects:
  - MIXTAPES
-publication_type: journal
+publication_type: conference
 publication_title: "Dynamics of discovery and the Heaps-Zipf relationship"
-publication_year: 2025
+publication_year: 2026
 publication_authors: Célestin Zimmerlin, Thomas Louail, Manuel Moussallam, Marc Barthelemy
 publication_conference: Physical Review E
 publication_preprint: "https://arxiv.org/pdf/2510.21481"
