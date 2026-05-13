@@ -54,6 +54,7 @@ team:
   - lmarey
   - lbriand
   - gcortes
+  - czimmerlin
 
 defaults:
   - scope:
