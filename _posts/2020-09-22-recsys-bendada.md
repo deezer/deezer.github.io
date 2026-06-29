@@ -28,7 +28,7 @@ promising research on these aspects to industrial-level applications.
 
 In particular, many global mobile apps and websites, notably from the music streaming industry, currently 
 leverage <i>swipeable carousels</i> to display recommended content on their homepages. These carousels, 
-also referred to as <i>sliders</i> or <i>shelves</i>, consist in ranked lists of items or <i>cards</i> (albums, 
+also referred to as <i>sliders</i> or <i>shelves</i>, consist of ranked lists of items or <i>cards</i> (albums, 
 artists, playlists...). A few cards are initially displayed to the users, who can click on them or swipe on the 
 screen to see some of the additional cards from the carousel.
 
