@@ -49,7 +49,7 @@ More precisely, our contribution is threefold:
 <ul>
     <li> We introduce and study simpler versions of graph AE and VAE, replacing multi-layer GCN encoders by linear models w.r.t. the direct neighborhood (one-hop) adjacency matrix of the graph, involving a unique weight matrix to tune, fewer operations and no activation function. </li>
     <li> Through an extensive empirical analysis on 17 real-world graphs with various sizes and characteristics, we show that these simplified models consistently reach competitive performances w.r.t. GCN-based graph AE and VAE on link prediction and node clustering tasks. We identify the settings where simple linear encoders appear as an effective alternative to GCNs, and as first relevant baseline to implement before diving into more complex models. We also question the relevance of current benchmark datasets (Cora, Citeseer, Pubmed) commonly used in the literature to evaluate graph AE and VAE. </li>
-    <li> We publicly release the code of these experiments, for reproducibility and easier future usages. </li>
+    <li> We publicly release the code of these experiments, for reproducibility and easier future use. </li>
 </ul>
 
 
