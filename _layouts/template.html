@@ -22,9 +22,9 @@
         - {{ page.title | escape }}
         {% endif %}
     </title>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
-        href="{{ '/feed.xml' | prepend: site.url | prepend: site.url }}">
+        href="{{ '/feed.xml' | prepend: site.url }}">
 </head>
 
 <body>
